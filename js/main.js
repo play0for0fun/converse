@@ -22,11 +22,13 @@ $('<style>header,section{height:800px;display:block}</style>').appendTo('head');
 }
 else
 {
-	$('#pages').fullpage({
-      scrollBar:true,
-      scrollingSpeed: 1000,
-      navigation: true
-    });
+	//$('#pages').fullpage({
+  //    scrollBar:true,
+  //    scrollingSpeed: 1000,
+  //    navigation: true
+  //  });
+
+$('<style>header,section{height:100vh!important;display:block}</style>').appendTo('head');
 
 //$('<style>header,section{height:800px;display:block}</style>').appendTo('head');
         $('.animation1').addClass('hidden-a').viewportChecker({
