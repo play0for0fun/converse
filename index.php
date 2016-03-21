@@ -44,7 +44,7 @@
     <h1 class="head-h1 animation1">Будь в тренде в стильных кедах <span>Converse</span><br>Бесплатная доставка за 1 день<br>Оплата после примерки!</h1>
     <p class="head-gar animation1"><span class="head-gar-star">365</span><span class="head-gar-text">Гарантия обмена<br>возврата 365 дней</span></p>
    </div>
-   <a href="" class="haed-mouse"></a>
+   <a href="#sec3" class="haed-mouse"></a>
   </div>
  </header>
  <section class="calc-st1 cd-section section">
@@ -186,7 +186,7 @@
    </div>
   </div>
  </section>
- <section class="sect-form cd-section section">
+ <section class="sect-form cd-section section" id="sec3">
   <div class="wrap">
    <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
    <div class="sect-form-middle">
@@ -610,6 +610,8 @@
 <script type=text/javascript src=js/jquery.fullpage.min.js></script>
 <script type=text/javascript src=js/jquery.viewportchecker.min.js></script>
 <script type=text/javascript src=js/jquery.bxslider.min.js></script>
+<script type=text/javascript src=js/jquery.mousewheel.min.js></script>
+<script type=text/javascript src=js/jquery.simplr.smoothscroll.min.js></script>
 <script type=text/javascript src=js/main.js></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script type="text/javascript">ymaps.ready(function () {var myMap = new ymaps.Map('map-wrap', {center: [55.758631,37.592237813491806],zoom: 13,controls: []	}),myPlacemark = new ymaps.Placemark([55.735721,37.592237813491806], {}, {iconLayout: 'default#image',iconImageHref: 'img/map-ico.png',iconImageSize: [486, 432],iconImageOffset: [-188, -402]});myMap.controls.add('zoomControl');	myMap.geoObjects.add(myPlacemark);myMap.behaviors.disable('scrollZoom');});</script>
