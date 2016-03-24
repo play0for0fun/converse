@@ -22,11 +22,13 @@ $('<style>header,section{height:800px;display:block}</style>').appendTo('head');
 }
 else
 {
-	$('#pages').fullpage({
-      scrollBar:true,
-      scrollingSpeed: 1000,
-      navigation: true
-    });
+	//$('#pages').fullpage({
+  //    scrollBar:true,
+  //    scrollingSpeed: 1000,
+  //    navigation: true
+  //  });
+
+$('<style>header,section{height:100vh!important;display:block}</style>').appendTo('head');
 
 //$('<style>header,section{height:800px;display:block}</style>').appendTo('head');
         $('.animation1').addClass('hidden-a').viewportChecker({
@@ -47,6 +49,7 @@ else
 }
 
 
+$('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top}, 500);});
 
     $('.calc-st1-btn,.calc-st5-btn').click(function(e) {
         e.preventDefault();
@@ -193,7 +196,7 @@ function calculate(){
   }
   $('.summ-is').html((int_alt_price+int_price).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
   $('.summ-calc .summ-not').html((int_alt_price+int_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
-  console.log(int_price,int_alt_price);
+  //console.log(int_price,int_alt_price);
 }
 
 function change_color_sizes(){
@@ -366,12 +369,19 @@ setTimeout(change_color_sizes,100);
             var d_commentary = 'Форма: '+$(this).find('input[name="form"]').val()+'; Осн.заказ: '+$(this).find('input[name="sex"]').val()+' '+$(this).find('input[name="model"]').val()+' '+$(this).find('input[name="color"]').val()+' '+' '+$(this).find('input[name="size"]').val()+'; Альт.Заказ: '+$(this).find('input[name="alt_sex"]').val()+' '+$(this).find('input[name="alt_model"]').val()+' '+$(this).find('input[name="alt_color"]').val()+' '+' '+$(this).find('input[name="alt_size"]').val()+'; Скидка: '+$(this).find('input[name="skidka"]').val();
 
               _rc('send', 'order', {
+                //'orderMethod': 'feedback',
                 'name' :  d_name.toString(),
                 'phone' : d_phone.toString(),
                 'email' : d_email.toString(),
                 'customerComment' : d_commentary.toString()
               });
-            console.log(d_name,d_commentary);
+
+               ga('require', 'ecommerce', 'ecommerce.js');
+                  ga('ecommerce:addTransaction', {
+                    'id': parseInt(d_phone.toString())
+                  });
+                ga('ecommerce:send');
+            //console.log(d_name,d_commentary);
             $.ajax({type: type, url: url, data: data,
             success : function(){
                 $.arcticmodal('close');$('#okgo').arcticmodal();
@@ -426,3 +436,14 @@ $(window).load(function(){
         $('.otz-ul li:nth-child('+newInd+')').removeClass('slideInDown2 animated');
     }});
 });
+
+$(function () {
+  $.srSmoothscroll({
+    // defaults
+    step: 55,
+    speed: 400,
+    ease: 'swing',
+    target: $('body'),
+    container: $(window)
+  })
+})
