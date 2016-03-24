@@ -369,11 +369,18 @@ setTimeout(change_color_sizes,100);
             var d_commentary = 'Форма: '+$(this).find('input[name="form"]').val()+'; Осн.заказ: '+$(this).find('input[name="sex"]').val()+' '+$(this).find('input[name="model"]').val()+' '+$(this).find('input[name="color"]').val()+' '+' '+$(this).find('input[name="size"]').val()+'; Альт.Заказ: '+$(this).find('input[name="alt_sex"]').val()+' '+$(this).find('input[name="alt_model"]').val()+' '+$(this).find('input[name="alt_color"]').val()+' '+' '+$(this).find('input[name="alt_size"]').val()+'; Скидка: '+$(this).find('input[name="skidka"]').val();
 
               _rc('send', 'order', {
+                //'orderMethod': 'feedback',
                 'name' :  d_name.toString(),
                 'phone' : d_phone.toString(),
                 'email' : d_email.toString(),
                 'customerComment' : d_commentary.toString()
               });
+
+               ga('require', 'ecommerce', 'ecommerce.js');
+                  ga('ecommerce:addTransaction', {
+                    'id': parseInt(d_phone.toString())
+                  });
+                ga('ecommerce:send');
             //console.log(d_name,d_commentary);
             $.ajax({type: type, url: url, data: data,
             success : function(){
