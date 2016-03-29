@@ -41,7 +41,7 @@
    </div>
    <a href="#" class="logo"></a>
    <div class="head-middle">
-    <h1 class="head-h1 animation1">Будь в тренде в стильных кедах <span>Converse</span><br>Бесплатная доставка за 1 день<br>Оплата после примерки!</h1>
+    <h1 class="head-h1 animation1">ХОТИТЕ КУПИТЬ ОРИГИНАЛЬНЫЕ КЕДЫ <span>CONVERSE</span>?<br>Бесплатная доставка за 1 день<br>Оплата после примерки!</h1>
     <p class="head-gar animation1"><span class="head-gar-star">365</span><span class="head-gar-text">Гарантия обмена<br>возврата 365 дней</span></p>
    </div>
    <a href="#sec3" class="haed-mouse"></a>

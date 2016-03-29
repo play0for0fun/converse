@@ -15,7 +15,7 @@ a{text-decoration:none;color:inherit;outline:0!important}
 .head-left{float:left;margin-top:-29px;margin-left:10px;width:30%;text-align:left;position:absolute;left:0;top:8.8%}
 .head-middle{position:absolute;top:43%;margin-top:-166px;width:100%}
 .calc-middle{width:100%;position:absolute;top:55%;margin-top:-201px}
-header{background:#2A221F url(../img/head-bg.jpg) no-repeat 50% center;background-size:cover;color:#fff;text-align:center}
+header{background: #2A221F url(../img/head-bg2.jpg) no-repeat 50% center;background-size:cover;color:#fff;text-align:center;}
 .head-om{text-shadow:0 0 3px rgba(0,0,0,.6);text-transform:uppercase;font-weight: 400;font-size:17px;margin-bottom:7px;letter-spacing:1.1px}
 .head-sert{font-size:18px;height:27px;display:inline-block;-webkit-transition:all .25s;transition:all .25s;background:url(../img/dotted.png) no-repeat bottom center}
 .head-sert:hover{background:none no-repeat bottom center}
