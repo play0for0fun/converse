@@ -47,6 +47,78 @@
    <a href="#sec3" class="haed-mouse"></a>
   </div>
  </header>
+ <section class="sect-form cd-section section" id="sec3">
+  <div class="wrap">
+   <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
+   <div class="sect-form-middle">
+    <div class="sect-form-picker animation1">
+     <span class="setc-form-price"><span class="main-price">2 499</span><span class="rouble-big"></span></span>
+     <span class="calc-st5-label">Выберите размер</span>      
+     <div class="selection-w" data-name="size">
+      <span class="selection-current">37 (22см)</span>
+      <ul class="selection-ul">
+      	 <li data-value="36" data-female="1">36 (22,5см)</li>
+         <li data-value="37" data-female="1">37 (23,5см)</li>
+         <li data-value="38" data-female="1">38 (24,5см)</li>
+         <li data-value="39" data-female="1">39 (24,5см)</li>
+         <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+         <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+         <li data-value="42" data-male="1">42 (27см)</li>
+         <li data-value="43" data-male="1">43 (28см)</li>
+         <li data-value="44" data-male="1">44 (28,5см)</li>
+         <li data-value="45" data-male="1">45 (29,5см)</li>
+      </ul>
+     </div>
+     <div class="sect-form-mod-wrap">
+      <span class="sect-form-mod sect-form-mod-active" data-select="sex" data-value="male">Мужские</span>
+      <span class="sect-form-mod" data-select="sex" data-value="female">Женские</span>
+      <span class="sect-form-mod" data-select="model" data-value="hi">Высокие</span>
+      <span class="sect-form-mod sect-form-mod-active" data-select="model" data-value="short">Короткие</span>
+     </div>
+     <span class="calc-st5-label">Выбериет цвет</span>
+     <div class="sect-form-color-wrap">
+          <span data-value="pink" data-hi="1" data-short="1" data-female="1"></span>
+          <span data-value="red" data-hi="1" data-short="1" data-male="1" data-female="1" class="opt-active"></span>
+          <span data-value="black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
+          <span data-value="white-black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
+          <span data-value="white" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
+          <span data-value="yellow" data-hi="1" data-male="1" data-female="1"></span>
+          <span data-value="beg" data-short="1" data-male="1" data-female="1"></span>
+          <span data-value="blue" data-short="1" data-male="1"></span>
+     </div>
+    </div>
+    <div class="sect-form-tov animation1" data-color="red" data-model="short"></div>
+    <form action="ajax/mail.php" method="post" class="sect-form-form animation1">
+       <span class="sect-form-prim">Бесплатная<br>примерка<br><span>до 2х<br>моделей</span></span>
+     <span class="calc-st5-label">Введите<br>Ваши данные</span>
+     <input type="text" class="calc-st5-inp" name="name" placeholder="Имя">
+     <input type="text" class="calc-st5-inp" name="phone" placeholder="Телефон">
+     <input type="text" class="calc-st5-inp" name="email" placeholder="Почта">
+     <input type="submit" class="calc-st5-inp-btn" value="Заказать">
+     <input type="hidden" name="form" value="Выбери свои кеды">
+     <input type="hidden" name="model" value="hi">
+     <input type="hidden" name="sex" value="male">
+     <input type="hidden" name="color" value="red">
+     <input type="hidden" name="size" value="37">
+     <div class="calc-st5-conf">
+      <span class="calc-st5-conf-check conf-checked"></span>
+      <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
+     </div>    
+    </form>
+   </div>
+   <p class="sect-form-p"><span class="animation1">Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
+  </div>
+ </section>
+ <section class="gall cd-section section">
+  <div class="wrap">
+   <div class="gall-middle">
+    <div class="animation1">
+     <h2 class="gall-h2">Все выбирают Converse</h2>
+     <p class="gall-p">57000 покупателей в 80 регионах рф за 5 лет</p>     
+    </div>
+   </div>
+  </div>
+ </section>
  <section class="calc-st1 cd-section section">
   <div class="wrap">
    <div class="calc-heading">
@@ -182,78 +254,6 @@
        <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
       </div>
      </form>
-    </div>
-   </div>
-  </div>
- </section>
- <section class="sect-form cd-section section" id="sec3">
-  <div class="wrap">
-   <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
-   <div class="sect-form-middle">
-    <div class="sect-form-picker animation1">
-     <span class="setc-form-price"><span class="main-price">2 499</span><span class="rouble-big"></span></span>
-     <span class="calc-st5-label">Выберите размер</span>      
-     <div class="selection-w" data-name="size">
-      <span class="selection-current">37 (22см)</span>
-      <ul class="selection-ul">
-      	 <li data-value="36" data-female="1">36 (22,5см)</li>
-         <li data-value="37" data-female="1">37 (23,5см)</li>
-         <li data-value="38" data-female="1">38 (24,5см)</li>
-         <li data-value="39" data-female="1">39 (24,5см)</li>
-         <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-         <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-         <li data-value="42" data-male="1">42 (27см)</li>
-         <li data-value="43" data-male="1">43 (28см)</li>
-         <li data-value="44" data-male="1">44 (28,5см)</li>
-         <li data-value="45" data-male="1">45 (29,5см)</li>
-      </ul>
-     </div>
-     <div class="sect-form-mod-wrap">
-      <span class="sect-form-mod" data-select="sex" data-value="male">Мужские</span>
-      <span class="sect-form-mod sect-form-mod-active" data-select="sex" data-value="female">Женские</span>
-      <span class="sect-form-mod sect-form-mod-active" data-select="model" data-value="hi">Высокие</span>
-      <span class="sect-form-mod" data-select="model" data-value="short">Короткие</span>
-     </div>
-     <span class="calc-st5-label">Выбериет цвет</span>
-     <div class="sect-form-color-wrap">
-          <span data-value="pink" data-hi="1" data-short="1" data-female="1"></span>
-          <span data-value="red" data-hi="1" data-short="1" data-male="1" data-female="1" class="opt-active"></span>
-          <span data-value="black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-          <span data-value="white-black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-          <span data-value="white" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-          <span data-value="yellow" data-hi="1" data-male="1" data-female="1"></span>
-          <span data-value="beg" data-short="1" data-male="1" data-female="1"></span>
-          <span data-value="blue" data-short="1" data-male="1"></span>
-     </div>
-    </div>
-    <div class="sect-form-tov animation1" data-color="red" data-model="hi"></div>
-    <form action="ajax/mail.php" method="post" class="sect-form-form animation1">
-       <span class="sect-form-prim">Бесплатная<br>примерка<br><span>до 2х<br>моделей</span></span>
-     <span class="calc-st5-label">Введите<br>Ваши данные</span>
-     <input type="text" class="calc-st5-inp" name="name" placeholder="Имя">
-     <input type="text" class="calc-st5-inp" name="phone" placeholder="Телефон">
-     <input type="text" class="calc-st5-inp" name="email" placeholder="Почта">
-     <input type="submit" class="calc-st5-inp-btn" value="Заказать">
-     <input type="hidden" name="form" value="Выбери свои кеды">
-     <input type="hidden" name="model" value="hi">
-     <input type="hidden" name="sex" value="male">
-     <input type="hidden" name="color" value="red">
-     <input type="hidden" name="size" value="37">
-     <div class="calc-st5-conf">
-      <span class="calc-st5-conf-check conf-checked"></span>
-      <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
-     </div>    
-    </form>
-   </div>
-   <p class="sect-form-p"><span class="animation1">Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
-  </div>
- </section>
- <section class="gall cd-section section">
-  <div class="wrap">
-   <div class="gall-middle">
-    <div class="animation1">
-     <h2 class="gall-h2">Все выбирают Converse</h2>
-     <p class="gall-p">57000 покупателей в 80 регионах рф за 5 лет</p>     
     </div>
    </div>
   </div>
@@ -495,7 +495,7 @@
    </div>
   </div>
  </section>
- <section class="sect-form cd-section section">
+ <!--<section class="sect-form cd-section section">
   <div class="wrap">
    <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
    <div class="sect-form-middle">
@@ -555,6 +555,145 @@
     </form>
    </div>
    <p class="sect-form-p"><span class="animation1">Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
+  </div>
+ </section>-->
+ <section class="calc-st1 cd-section section">
+  <div class="wrap">
+   <div class="calc-heading">
+    <div class="animation1">
+     <p class="calc-h2-skidk"><span class="calc-skidk-proc">10%</span><span class="calc-skidk-proc-text">Получи скидку 10% от наших<br>официальных партнеров при покупке<br>кед Converse в нашем магазине</span></p>
+     <h3 class="calc-h3">При покупке кед Converse<br>дарим купон на <span>Скидку</span></h3>
+    </div>
+   </div>    
+   <div class="calc-heading-2">     
+    <h4 class="calc-h4 animation1" data-step="1">Выбирай, на что ты хочешь скидку?</h4>
+    <h4 class="calc-h4" data-step="2"><span class="calc-back">Назад</span>Выбери высоту кед!</h4> 
+    <h4 class="calc-h4" data-step="3"><span class="calc-back">Назад</span>Для кого подбираем кеды?</h4>
+    <h4 class="calc-h4" data-step="4"><span class="calc-back">Назад</span>Выбери свой цвет и размер для примерки</h4>
+    <h4 class="calc-h4" data-step="5"><span class="calc-back">Назад</span>Заполни форму и мы отправил тебе на емейл скидочный купон</h4>
+   </div>
+   <div class="calc-middle">     
+    <div class="calc-wrap animation1" data-step="1">
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Mini Борд" data-number="1">Mini Борд</a></div>
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Футболка DC" data-number="2">Футболка DC</a></div>
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Джинсы Levi’s" data-number="3">Джинсы Levi’s</a></div>
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Бейсболка NY" data-number="4">Бейсболка NY</a></div>
+    </div>
+    <div class="calc-wrap" data-step="2">
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="hi">Высокие</a></div>
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="short">Низкие</a></div>
+    </div>
+    <div class="calc-wrap" data-step="3">
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="sex" data-value="female">Женские</a></div>
+     <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="sex" data-value="male">Мужские</a></div>
+    </div>
+    <div class="calc-wrap" data-step="4">
+     <ul class="calc-st4-size">
+      <li data-value="45" data-male="1">45<span class="sm-size">(29,5см)</span></li>
+      <li data-value="44" data-male="1">44<span class="sm-size">(28,5см)</span></li>
+      <li data-value="43" data-male="1">43<span class="sm-size">(28см)</span></li>
+      <li data-value="42" data-male="1">42<span class="sm-size">(27см)</span></li>
+      <li data-value="41" data-female="1" data-male="1">41<span class="sm-size">(26см)</span></li>
+      <li data-value="40" data-female="1" data-male="1">40<span class="sm-size">(25,5см)</span></li>
+      <li data-value="39" data-female="1">39<span class="sm-size">(24,5см)</span></li>
+      <li data-value="38" data-female="1">38<span class="sm-size">(24,5см)</span></li>
+      <li data-value="37" class="opt-active" data-female="1">37<span class="sm-size">(23,5см)</span></li>
+      <li data-value="36" data-female="1">36<span class="sm-size">(22,5см)</span></li>
+     </ul>
+     <div class="calc-st4-convers" data-model="hi" data-color="red">
+      <span class="calc-st4-price"><span class="main-price">2 499</span><span class="rouble-calc"></span></span>
+      <a href="" class="calc-st5-btn">Далее</a>
+     </div>
+     <div class="calc-st4-color">
+      <p data-value="white" data-hi="1" data-short="1" data-female="1" data-male="1"><span class="calc-st4-color-round"></span>Белый</p>
+      <p data-value="yellow" data-hi="1" data-female="1" data-male="1"><span class="calc-st4-color-round"></span>Желтый</p>
+      <p data-value="beg" data-short="1" data-female="1" data-male="1"><span class="calc-st4-color-round"></span>Бежевый</p>
+      <p data-value="black" data-hi="1" data-short="1" data-female="1" data-male="1"><span class="calc-st4-color-round"></span>Черный</p>
+      <p data-value="red" data-hi="1" data-short="1" data-female="1" data-male="1" class="opt-active"><span class="calc-st4-color-round"></span>Красный</p>
+      <p data-value="white-black" data-hi="1" data-short="1" data-female="1" data-male="1"><span class="calc-st4-color-round"></span>Черно-белый</p>
+      <p data-value="pink" data-hi="1" data-short="1" data-female="1"><span class="calc-st4-color-round"></span>Розовый</p>
+      <p data-value="blue" data-short="1" data-male="1"><span class="calc-st4-color-round"></span>Синий</p>
+     </div>
+    </div>
+    <div class="calc-wrap" data-step="5">
+     <div class="calc-st5-kupon" data-number="1">
+      <span class="calc-st5-skidk">
+         cкидка
+       <span>10%</span>
+      </span>
+     </div>
+     <span class="calc-st5-plus">+</span>
+     <div class="calc-st5-tovar" data-model="hi" data-color="red">
+      <span class="calc-st5-price">
+       <span class="main-price">2 499</span><span class="calc-st5-rouble"></span>
+      </span>
+     </div>
+     <form action="ajax/mail.php" method="post" class="calc-st5-form">
+      <span class="calc-st5-label">Вы выбрали</span>
+      <div class="calc-st5-select-wrap">
+       <div class="selection-w" data-name="size">
+        <span class="selection-current">37 <span class="sel-small">(23,5см)</span></span>
+        <ul class="selection-ul main-control-ul">
+         <li data-value="36" data-female="1">36 <span class="sel-small">(22,5см)</span></li>
+         <li data-value="37" data-female="1">37 <span class="sel-small">(23,5см)</span></li>
+         <li data-value="38" data-female="1">38 <span class="sel-small">(24,5см)</span></li>
+         <li data-value="39" data-female="1">39 <span class="sel-small">(24,5см)</span></li>
+         <li data-value="40" data-female="1" data-male="1">40 <span class="sel-small">(25,5см)</span></li>
+         <li data-value="41" data-female="1" data-male="1">41 <span class="sel-small">(26см)</span></li>
+         <li data-value="42" data-male="1">42 <span class="sel-small">(27см)</span></li>
+         <li data-value="43" data-male="1">43 <span class="sel-small">(28см)</span></li>
+         <li data-value="44" data-male="1">44 <span class="sel-small">(28,5см)</span></li>
+         <li data-value="45" data-male="1">45 <span class="sel-small">(29,5см)</span></li>
+        </ul>
+       </div>
+       <div class="calc-select-color-wrap" data-color="red">        
+        <div class="selection-w" data-name="color">
+         <span class="selection-current"></span>
+         <ul class="selection-ul main-control-ul">
+          <li data-value="pink" data-hi="1" data-short="1" data-female="1"></li>
+          <li data-value="red" data-hi="1" data-short="1" data-male="1" data-female="1"></li>
+          <li data-value="black" data-hi="1" data-short="1" data-male="1" data-female="1"></li>
+          <li data-value="white-black" data-hi="1" data-short="1" data-male="1" data-female="1"></li>
+          <li data-value="white" data-hi="1" data-short="1" data-male="1" data-female="1"></li>
+          <li data-value="yellow" data-hi="1" data-male="1" data-female="1"></li>
+          <li data-value="beg" data-short="1" data-male="1" data-female="1"></li>
+          <li data-value="blue" data-short="1" data-male="1"></li>
+         </ul>
+        </div>
+       </div>
+       <div class="selection-w" data-name="sex">
+        <span class="selection-current">Муж.</span>
+        <ul class="selection-ul main-control-ul">
+         <li data-value="male">Муж.</li>
+         <li data-value="female">Жен.</li>
+        </ul>
+       </div>
+       <div class="selection-w" data-name="model">
+        <span class="selection-current">Выс.</span>
+        <ul class="selection-ul main-control-ul">
+         <li data-value="hi">Выс.</li>
+         <li data-value="short">Низ.</li>
+        </ul>
+       </div>
+      </div>
+      <span class="calc-st5-label">Введите данные</span>
+      <input type="text" class="calc-st5-inp" name="name" placeholder="Имя">
+      <input type="text" class="calc-st5-inp" name="phone" placeholder="Телефон">
+      <input type="text" class="calc-st5-inp" name="email" placeholder="Почту">
+      <input type="submit" class="calc-st5-inp-btn" value="Получить купон">
+      <input type="hidden" name="form" value="Купон на скидку">
+      <input type="hidden" name="skidka" value="">
+      <input type="hidden" name="model" value="hi">
+      <input type="hidden" name="sex" value="male">
+      <input type="hidden" name="color" value="red">
+      <input type="hidden" name="size" value="37">
+      <div class="calc-st5-conf">
+       <span class="calc-st5-conf-check conf-checked"></span>
+       <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
+      </div>
+     </form>
+    </div>
+   </div>
   </div>
  </section>
  <section class="map cd-section section">
