@@ -3,7 +3,7 @@ function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w
 
 $(document).ready(function() {
   setTimeout(function(){if(!$('body').hasClass('loaded')) {$('body').addClass('loaded')};},3000);
-  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
+  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/feature-carousel.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
 var data_model;
 var cach_step=1;
 var is_animating = 0;
@@ -55,53 +55,35 @@ $('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ 
         e.preventDefault();
         var cur = parseInt($(this).parent().parent().data('step'));
         var next = cur + 1;
-        next_step_animation(cur,next);
+        par = $(this).parents('section.section');
+        next_step_animation(cur,next,par);
     });
     $('.calc-back').click(function(e) {
         e.preventDefault();
         var cur = parseInt($(this).parent().data('step'));
         var next = cur - 1;
-        prev_step_animation(cur,next);
+        par = $(this).parents('section.section');
+        prev_step_animation(cur,next,par);
     });
-    function next_step_animation(cur,next){
-        $('.calc-h4g[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated')
-        $('.calc-h4g[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
-        $('.calc-wrapp[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated');
-        $('.calc-wrapp[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
-        $('.calc-wrapp[data-step="'+next+'"]').attr('style','opacity:1');
+    function next_step_animation(cur,next,par){
+        par.find('.calc-h4[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated')
+        par.find('.calc-h4[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
+        par.find('.calc-wrap[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated');
+        par.find('.calc-wrap[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
+        par.find('.calc-wrap[data-step="'+next+'"]').attr('style','opacity:1');
           function togle_step_anim(){
-            $('.calc-h4g[data-step="'+next+'"],.calc-wrapp[data-step="'+next+'"]').removeClass('zoomIn animated');
-            $('.calc-wrapp[data-step="'+cur+'"],.calc-h4g[data-step="'+cur+'"]').removeClass('slideOutUp animated');
-        $('.calc-wrapp[data-step="'+next+'"]').attr('style','');
+            par.find('.calc-h4[data-step="'+next+'"],.calc-wrap[data-step="'+next+'"]').removeClass('zoomIn animated');
+            par.find('.calc-wrap[data-step="'+cur+'"],.calc-h4[data-step="'+cur+'"]').removeClass('slideOutUp animated');
+            par.find('.calc-wrap[data-step="'+next+'"]').attr('style','');
           }
           setTimeout(togle_step_anim,1200);
     }
-    function prev_step_animation(cur,next){
-        $('.calc-h4g[data-step="'+cur+'"]').removeClass('visible-a')
-        $('.calc-h4g[data-step="'+next+'"]').removeClass('hidden-a');
-        $('.calc-wrapp[data-step="'+cur+'"]').removeClass('visible-a');
-        $('.calc-wrapp[data-step="'+next+'"]').removeClass('hidden-a');
+    function prev_step_animation(cur,next,par){
+        par.find('.calc-h4[data-step="'+cur+'"]').removeClass('visible-a')
+        par.find('.calc-h4[data-step="'+next+'"]').removeClass('hidden-a');
+        par.find('.calc-wrap[data-step="'+cur+'"]').removeClass('visible-a');
+        par.find('.calc-wrap[data-step="'+next+'"]').removeClass('hidden-a');
     }
-    function next_step_animation(cur,next){
-        $('.calc-h4[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated')
-        $('.calc-h4[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
-        $('.calc-wrap[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated');
-        $('.calc-wrap[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
-        $('.calc-wrap[data-step="'+next+'"]').attr('style','opacity:1');
-          function togle_step_anim(){
-            $('.calc-h4[data-step="'+next+'"],.calc-wrap[data-step="'+next+'"]').removeClass('zoomIn animated');
-            $('.calc-wrap[data-step="'+cur+'"],.calc-h4[data-step="'+cur+'"]').removeClass('slideOutUp animated');
-        $('.calc-wrap[data-step="'+next+'"]').attr('style','');
-          }
-          setTimeout(togle_step_anim,1200);
-    }
-    function prev_step_animation(cur,next){
-        $('.calc-h4[data-step="'+cur+'"]').removeClass('visible-a')
-        $('.calc-h4[data-step="'+next+'"]').removeClass('hidden-a');
-        $('.calc-wrap[data-step="'+cur+'"]').removeClass('visible-a');
-        $('.calc-wrap[data-step="'+next+'"]').removeClass('hidden-a');
-    }
-
     $('.selection-ul li').click(function(){
       var inp_name = $(this).parent().parent().data('name');
       var inp_value = $(this).data('value');
@@ -345,7 +327,7 @@ setTimeout(change_color_sizes,100);
 
     $('.haed-mouse').click(function(e){
       e.preventDefault();
-      $.fn.fullpage.moveSectionDown();
+      //$.fn.fullpage.moveSectionDown();
     });
 
     $('.calc-st5-conf').click(function(){
@@ -441,6 +423,35 @@ $('.double-form-sex .selection-w li').click(function(){
   //console.log(data_alt_model);
 
 });
+
+
+//новий слайдер
+var carousel = $('#carousel').featureCarousel({
+      trackerIndividual: false,
+      trackerSummation: false,
+      autoPlay: 0,
+      startingFeature:1,
+      sidePadding:0,
+      smallFeatureOffset:98,
+      movedToCenter:function($feature){
+        $feature.find('.slide-prew').attr({style: 'opacity:1'});
+        //console.log($feature.text());
+      },
+      leavingCenter:function($feature){
+        $feature.find('.slide-prew').attr({style: 'opacity:0'});
+      }
+    });
+        $("#but_prev").click(function () {
+          carousel.prev();
+          //console.log('prev');
+          return false;
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+          //console.log('next');
+          return false;
+    });
+
 
 });
 $(window).load(function(){
