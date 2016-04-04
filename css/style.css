@@ -460,3 +460,74 @@ section.gall{background-color:#0E0601}
     top: 47px;
     cursor: pointer;
 }
+.slide-wrap {
+    position: relative;
+    width: 728px;
+    background: url(../img/slide-bg.png)no-repeat 0 16%;
+    display: inline-block;
+    
+}
+
+.slide-nom {
+border-radius: 50%;
+    background-color: #ef472d;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 43px;
+    color: #ebebeb;
+    padding-top: 5px;
+    position: absolute;
+    left: 46%;
+    top: -4%;
+}
+
+.slide-content {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.slide-sec {
+        width: 524px;
+display: block;
+    margin: 0 auto;
+}
+
+.slide-prew {
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: #ec4e3d;
+    color: #fff;
+    text-align: center;
+    width: 595px;
+    margin: 20px auto 0;
+    font-size: 15px;
+        
+}
+
+.slide-nav {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-top: 119px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slider {
+    height: 720px!important;
+}
+
+.kach-h222 {
+    font-family: bague_sans,sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    top: 18.2%;
+    margin-top: -74px;
+    text-shadow: 0 0 20px #E9E9E9;
+}
