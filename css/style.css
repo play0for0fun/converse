@@ -54,12 +54,32 @@ header{background: #2A221F url(../img/head-bg2.jpg) no-repeat 50% center;backgro
 .calc-wrap[data-step="3"]{/* z-index:3; *//* opacity:0 */}
 .calc-wrap[data-step="4"]{/* z-index:2; *//* opacity:0 */}
 .calc-wrap[data-step="5"]{/* z-index:1; *//* opacity:0 */}
+.calc-wrapp[data-step="2"]{z-index: 1;/* opacity: 1; */display: block;}
+.calc-wrapp[data-step="3"]{/* z-index:3; *//* opacity:0 */}
+.calc-wrapp[data-step="4"]{/* z-index:2; *//* opacity:0 */}
+.calc-wrapp[data-step="5"]{/* z-index:1; *//* opacity:0 */}
+
+
+.calc-h4g{font-family:bague_sans,sans-serif;font-weight:500;font-size:28px;letter-spacing:.5px;-webkit-animation-delay:.2s!important;animation-delay:.2s!important;position:absolute;width:100%;top:0;-webkit-transition:all 1s;transition:all 1s}
+.calc-h4g[data-step="1"]{z-index:5}
+.calc-h4g[data-step="2"]{z-index:4;opacity:0}
+.calc-h4g[data-step="3"]{z-index:3;opacity:0}
+.calc-h4g[data-step="4"]{z-index:2;opacity:0}
+.calc-h4g[data-step="5"]{z-index:1;opacity:0}
+.calc-h4g.visible-a{opacity:1}
+
+
 .calc-h4.visible-a{opacity:1}
 .visible-a.calc-wrap{
     z-index: 1;
     display: block;
 }
+.visible-a.calc-wrapp{
+    z-index: 1;
+    display: block;
+}
 .calc-wrap{margin:0 auto 0;width:1010px;-webkit-box-shadow:0 2px 6px rgba(0,0,0,.24);box-shadow:0 2px 6px rgba(0,0,0,.24);-webkit-border-radius:10px;border-radius:10px;overflow:hidden;position:absolute;width:1010px;top:0;left:50%;margin-left:-505px;-webkit-transition:all 1s;transition:all 1s;/* opacity: 0; */background: #E9E9E9 url(../img/calc-st1-bg.jpg) no-repeat center;display: none;}
+.calc-wrapp{margin:0 auto 0;width:1010px;-webkit-box-shadow:0 2px 6px rgba(0,0,0,.24);box-shadow:0 2px 6px rgba(0,0,0,.24);-webkit-border-radius:10px;border-radius:10px;overflow:hidden;position:absolute;width:1010px;top:0;left:50%;margin-left:-505px;-webkit-transition:all 1s;transition:all 1s;/* opacity: 0; */background: #E9E9E9 url(../img/calc-st1-bg.jpg) no-repeat center;display: none;}
 .calc-st1-item{float:left;width:25%;height:460px;background-position:center;background-size:auto 100%;position:relative;padding-top:200px;-webkit-transition:all .35s;transition:all .35s}
 [data-step="2"] .calc-st1-item{width:50%}
 [data-step="2"] .calc-st1-item:nth-child(1){background-image:url(../img/calc-st2-img1.jpg)}
