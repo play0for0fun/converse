@@ -123,33 +123,33 @@
   <div class="wrap">
    <div class="calc-heading">
     <div class="animation1">
-     <p class="calc-h2-skidk"><span class="calc-skidk-proc">10%</span><span class="calc-skidk-proc-text">Получи скидку 10% от наших<br>официальных партнеров при покупке<br>кед Converse в нашем магазине</span></p>
-     <h3 class="calc-h3">При покупке кед Converse<br>дарим купон на <span>Скидку</span></h3>
+     <!--<p class="calc-h2-skidk"><span class="calc-skidk-proc">10%</span><span class="calc-skidk-proc-text">Получи скидку 10% от наших<br>официальных партнеров при покупке<br>кед Converse в нашем магазине</span></p>-->
+     <h3 class="calc-h3">Выбери свои оригинальные CONVERSE</h3>
     </div>
    </div>    
    <div class="calc-heading-2">     
-    <h4 class="calc-h4 animation1" data-step="1">Выбирай, на что ты хочешь скидку?</h4>
-    <h4 class="calc-h4" data-step="2"><span class="calc-back">Назад</span>Выбери высоту кед!</h4> 
-    <h4 class="calc-h4" data-step="3"><span class="calc-back">Назад</span>Для кого подбираем кеды?</h4>
-    <h4 class="calc-h4" data-step="4"><span class="calc-back">Назад</span>Выбери свой цвет и размер для примерки</h4>
-    <h4 class="calc-h4" data-step="5"><span class="calc-back">Назад</span>Заполни форму и мы отправил тебе на емейл скидочный купон</h4>
+    <!--<h4 class="calc-h4 animation1" data-step="1">Выбирай, на что ты хочешь скидку?</h4>-->
+    <h4 class="calc-h4g animation1" data-step="1">Выбери высоту кед!</h4> 
+    <h4 class="calc-h4g" data-step="2"><span class="calc-back">Назад</span>Для кого подбираем кеды?</h4>
+    <h4 class="calc-h4g" data-step="3"><span class="calc-back">Назад</span>Выбери свой цвет и размер для примерки</h4>
+    <h4 class="calc-h4g" data-step="4"><span class="calc-back">Назад</span>Заполни форму и мы отправил тебе на емейл скидочный купон</h4>
    </div>
    <div class="calc-middle">     
-    <div class="calc-wrap animation1" data-step="1">
+    <!--<div class="calc-wrap animation1" data-step="1">
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Mini Борд" data-number="1">Mini Борд</a></div>
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Футболка DC" data-number="2">Футболка DC</a></div>
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Джинсы Levi’s" data-number="3">Джинсы Levi’s</a></div>
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Бейсболка NY" data-number="4">Бейсболка NY</a></div>
-    </div>
-    <div class="calc-wrap" data-step="2">
+    </div>-->
+    <div class="calc-wrapp animation1 hidden-a" data-step="2">
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="hi">Высокие</a></div>
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="short">Низкие</a></div>
     </div>
-    <div class="calc-wrap" data-step="3">
+    <div class="calc-wrapp" data-step="3">
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="sex" data-value="female">Женские</a></div>
      <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="sex" data-value="male">Мужские</a></div>
     </div>
-    <div class="calc-wrap" data-step="4">
+    <div class="calc-wrapp" data-step="4">
      <ul class="calc-st4-size">
       <li data-value="45" data-male="1">45<span class="sm-size">(29,5см)</span></li>
       <li data-value="44" data-male="1">44<span class="sm-size">(28,5см)</span></li>
@@ -177,7 +177,7 @@
       <p data-value="blue" data-short="1" data-male="1"><span class="calc-st4-color-round"></span>Синий</p>
      </div>
     </div>
-    <div class="calc-wrap" data-step="5">
+    <div class="calc-wrapp" data-step="5">
      <div class="calc-st5-kupon" data-number="1">
       <span class="calc-st5-skidk">
          cкидка

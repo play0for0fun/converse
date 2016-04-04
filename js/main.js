@@ -10,7 +10,7 @@ var is_animating = 0;
 var price = '2 499';
 var alt_price = '1 999';
 var cur_sex = 'female';
-var cur_model = 'hi';
+var cur_model = 'short';
 var cur_color = 'red';
 var alt_cur_model = 'hi';
 var alt_cur_color = 'red';
@@ -63,6 +63,25 @@ $('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ 
         var next = cur - 1;
         prev_step_animation(cur,next);
     });
+    function next_step_animation(cur,next){
+        $('.calc-h4g[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated')
+        $('.calc-h4g[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
+        $('.calc-wrapp[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated');
+        $('.calc-wrapp[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
+        $('.calc-wrapp[data-step="'+next+'"]').attr('style','opacity:1');
+          function togle_step_anim(){
+            $('.calc-h4g[data-step="'+next+'"],.calc-wrapp[data-step="'+next+'"]').removeClass('zoomIn animated');
+            $('.calc-wrapp[data-step="'+cur+'"],.calc-h4g[data-step="'+cur+'"]').removeClass('slideOutUp animated');
+        $('.calc-wrapp[data-step="'+next+'"]').attr('style','');
+          }
+          setTimeout(togle_step_anim,1200);
+    }
+    function prev_step_animation(cur,next){
+        $('.calc-h4g[data-step="'+cur+'"]').removeClass('visible-a')
+        $('.calc-h4g[data-step="'+next+'"]').removeClass('hidden-a');
+        $('.calc-wrapp[data-step="'+cur+'"]').removeClass('visible-a');
+        $('.calc-wrapp[data-step="'+next+'"]').removeClass('hidden-a');
+    }
     function next_step_animation(cur,next){
         $('.calc-h4[data-step="'+cur+'"]').addClass('hidden-a slideOutUp animated')
         $('.calc-h4[data-step="'+next+'"]').addClass('visible-a zoomIn animated');
