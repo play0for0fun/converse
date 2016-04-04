@@ -454,7 +454,15 @@ var carousel = $('#carousel').featureCarousel({
 
 
 });
+
+
+
+
 $(window).load(function(){
+
+//зміна початкового вибору
+$('.sect-form-mod[data-value="male"]').trigger('click');
+$('.sect-form-mod[data-value="short"]').trigger('click');
 
 
   if (!$('body').hasClass('loaded')) {$('body').addClass('loaded')};
@@ -467,13 +475,13 @@ $(window).load(function(){
     }});
 });
 
-$(function () {
-  $.srSmoothscroll({
+//$(function () {
+//  $.srSmoothscroll({
     // defaults
-    step: 55,
-    speed: 400,
-    ease: 'swing',
-    target: $('body'),
-    container: $(window)
-  })
-})
+//    step: 55,
+//    speed: 400,
+//    ease: 'swing',
+//    target: $('body'),
+//    container: $(window)
+//  })
+//})

@@ -513,8 +513,11 @@ section.gall{background-color:#0E0601}
 .slide-content {
     /* margin-top: 124px; */
     text-align: center;
-    position: relative;
-    top: 10%;
+    position: absolute;
+    top: 61%;
+    height: 470px;
+    width: 100%;
+    transform: translateY(-50%);
 }
 
 .slide-sec {

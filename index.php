@@ -539,68 +539,6 @@
           </div>
         </div>
       </section>
-      <section class="sect-form cd-section section">
-        <div class="wrap">
-          <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
-          <div class="sect-form-middle">
-            <div class="sect-form-picker animation1">
-              <span class="setc-form-price"><span class="main-price">2 499</span><span class="rouble-big"></span></span>
-              <span class="calc-st5-label">Выберите размер</span>
-              <div class="selection-w" data-name="size">
-                <span class="selection-current">37 (22см)</span>
-                <ul class="selection-ul">
-                  <li data-value="36" data-female="1">36 (22,5см)</li>
-                  <li data-value="37" data-female="1">37 (23,5см)</li>
-                  <li data-value="38" data-female="1">38 (24,5см)</li>
-                  <li data-value="39" data-female="1">39 (24,5см)</li>
-                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                  <li data-value="42" data-male="1">42 (27см)</li>
-                  <li data-value="43" data-male="1">43 (28см)</li>
-                  <li data-value="44" data-male="1">44 (28,5см)</li>
-                  <li data-value="45" data-male="1">45 (29,5см)</li>
-                </ul>
-              </div>
-              <div class="sect-form-mod-wrap">
-                <span class="sect-form-mod" data-select="sex" data-value="male">Мужские</span>
-                <span class="sect-form-mod sect-form-mod-active" data-select="sex" data-value="female">Женские</span>
-                <span class="sect-form-mod sect-form-mod-active" data-select="model" data-value="hi">Высокие</span>
-                <span class="sect-form-mod" data-select="model" data-value="short">Короткие</span>
-              </div>
-              <span class="calc-st5-label">Выбериет цвет</span>
-              <div class="sect-form-color-wrap">
-                <span data-value="pink" data-hi="1" data-short="1" data-female="1"></span>
-                <span data-value="red" data-hi="1" data-short="1" data-male="1" data-female="1" class="opt-active"></span>
-                <span data-value="black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-                <span data-value="white-black" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-                <span data-value="white" data-hi="1" data-short="1" data-male="1" data-female="1"></span>
-                <span data-value="yellow" data-hi="1" data-male="1" data-female="1"></span>
-                <span data-value="beg" data-short="1" data-male="1" data-female="1"></span>
-                <span data-value="blue" data-short="1" data-male="1"></span>
-              </div>
-            </div>
-            <div class="sect-form-tov animation1" data-color="red" data-model="hi"></div>
-            <form action="ajax/mail.php" method="post" class="sect-form-form animation1">
-              <span class="sect-form-prim">Бесплатная<br>примерка<br><span>до 2х<br>моделей</span></span>
-              <span class="calc-st5-label">Введите<br>Ваши данные</span>
-              <input type="text" class="calc-st5-inp" name="name" placeholder="Имя">
-              <input type="text" class="calc-st5-inp" name="phone" placeholder="Телефон">
-              <input type="text" class="calc-st5-inp" name="email" placeholder="Почта">
-              <input type="submit" class="calc-st5-inp-btn" value="Заказать">
-              <input type="hidden" name="form" value="Выбери свои кеды">
-              <input type="hidden" name="model" value="hi">
-              <input type="hidden" name="sex" value="male">
-              <input type="hidden" name="color" value="red">
-              <input type="hidden" name="size" value="37">
-              <div class="calc-st5-conf">
-                <span class="calc-st5-conf-check conf-checked"></span>
-                <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
-              </div>
-            </form>
-          </div>
-          <p class="sect-form-p"><span class="animation1">Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
-        </div>
-      </section>
       <section class="calc-st1 cd-section section">
         <div class="wrap">
           <div class="calc-heading">
