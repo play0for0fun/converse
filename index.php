@@ -49,7 +49,7 @@
       </header>
       <section class="cd-section section slider" id="sec-2-slider">
         <div class="wrap">
-          <div class="kach-h222"><h2 class="animation1 full-visible">Как отличить оригинальные <span style="color: #ef472d;">Сonverse?</span></h2></div>
+          <div class="kach-h222"><h2 class="animation1 full-visible">Как отличить оригинальные <span style="color: #ef472d;">Сonverse</span> от кед за 1500 руб.?</div>
           <div class="slide-content carousel-container">
             <div class="slide-nav" id="but_prev"><img src="img/next.png" alt="next"></div>
             <div class="slide-wrap" id="carousel">
