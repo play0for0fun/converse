@@ -19,6 +19,8 @@
     </script>
   </head>
   <body>
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
     <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
@@ -722,6 +724,19 @@
         <p class="okgo-p">Заявка отправлена,<br>наш менеджер перезвонит вам<br>в течение 5 минут и поможет<br>сделать следующий шаг</p>
         <div class="okgo-close">Закрыть окно</div>
       </div>
+    </div>
+    <div class="menu-btn"></div>
+    <div class="menu">
+        <a href="#sec1" class="menu-a">Главная</a>
+        <a href="#sec2" class="menu-a">Уточнить стоимость</a>
+        <a href="#sec3" class="menu-a">Плавающий фундамент</a>
+        <a href="#sec4" class="menu-a">Работы мастеров</a>
+        <a href="#sec5" class="menu-a">Памятники и тумбы</a>
+        <a href="#sec6" class="menu-a">Премиум памятники</a>
+        <a href="#sec7" class="menu-a">Этапы изготовления</a>
+        <a href="#sec8" class="menu-a">Благоустройство захоронений</a>
+        <a href="#sec9" class="menu-a">Примеры наших работ</a>
+        <a href="#sec10" class="menu-a">Контакты</a>
     </div>
     <script type=text/javascript src=js/jquery-2.1.4.min.js></script>
     <script type=text/javascript src=js/jquery.cookie.min.js></script>
