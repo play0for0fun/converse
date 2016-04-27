@@ -511,6 +511,41 @@ var carousel = $('#carousel').featureCarousel({
 });
 
 
+//stabilization
+
+function stabilize(){
+
+  $('.section').each(function(index, el) {
+  
+  var eTop = $(this).offset().top; 
+  var posTop = eTop - $(window).scrollTop();
+
+    if(posTop>-$(window).height()/2&&posTop<$(window).height()/2){
+      $("html, body").animate({ scrollTop: $(this).offset().top}, 250);
+    }
+
+  });
+
+}
+
+
+$("html, body").on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
+  $("html, body").stop();
+});
+
+$(window).scroll(function(){
+
+//if ($(window).scrollTop()-$(window).height()>= 0) {
+//  $('.menu-btn').addClass('active');
+//}else{
+//  $('.menu-btn').removeClass('active');
+//}
+
+  clearTimeout($.data(this, 'scrollTimer'));
+  
+  $.data(this, 'scrollTimer',setTimeout(stabilize,1500));
+
+});
 
 
 $(window).load(function(){

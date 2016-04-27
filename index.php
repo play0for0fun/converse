@@ -19,8 +19,6 @@
     </script>
   </head>
   <body>
-  <div class="site-nav up"></div>
- <div class="site-nav down"></div>
     <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
@@ -29,6 +27,8 @@
     <script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none";document.getElementsByTagName("BODY")[0].style.padding="0";}</script>
     <div id="pages">
       <header class="section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="head-left">
             <p class="head-om">Официальный магазин</p>
@@ -50,6 +50,8 @@
         </div>
       </header>
       <section class="cd-section section slider" id="sec-2-slider">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="kach-h222"><h2 class="animation1 full-visible">Как отличить оригинальные <span style="color: #ef472d;">Сonverse</span> от кед за 1500 руб.?</div>
           <div class="slide-content carousel-container">
@@ -102,6 +104,8 @@
         </div>
       </section>
       <section class="sect-form cd-section section" id="sec3">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
           <div class="sect-form-middle">
@@ -164,6 +168,8 @@
         </div>
       </section>
       <section class="gall cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="gall-middle">
             <div class="animation1">
@@ -174,6 +180,8 @@
         </div>
       </section>
       <section class="calc-st1 cd-section section" id="new-calc">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="calc-heading">
             <div class="animation1">
@@ -305,6 +313,8 @@
         </div>
       </section>
       <section class="kach1 cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
           <div class="animation2 kedw" data-step="1">
@@ -331,6 +341,8 @@
         </div>
       </section>
       <section class="kach2 cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
           <div class="animation2 kedw" data-step="2">
@@ -353,6 +365,8 @@
         </div>
       </section>
       <section class="kach3 cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
           <div class="animation2 kedw" data-step="3">
@@ -371,6 +385,8 @@
         </div>
       </section>
       <section class="double-from cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="double-form-h2"><h2 class="animation1">Порадуйте свою вторую половинку</h2></div>
           <div class="double-form-p"><p class="animation1">При заказе мужской и женской модели Converse <span class="double-form-red">скидка 500<span></span></span></p></div>
@@ -485,6 +501,8 @@
         </div>
       </section>
       <section class="otz cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="otz-middle">
             <div class="otz-foto-ul animation1" id="otz-pager">
@@ -542,6 +560,8 @@
         </div>
       </section>
       <section class="calc-st1 cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div class="wrap">
           <div class="calc-heading">
             <div class="animation1">
@@ -681,6 +701,8 @@
         </div>
       </section>
       <section class="map cd-section section">
+  <div class="site-nav up"></div>
+ <div class="site-nav down"></div>
         <div id="map-wrap"></div>
         <div class="maph2"><h2 class="animation1">самовывоз в центре города на<br>парке культуры <span>в 2х минутах<br>от метро</span> в нашем шоу-руме № 45</h2></div>
         <footer>
@@ -725,7 +747,7 @@
         <div class="okgo-close">Закрыть окно</div>
       </div>
     </div>
-    <div class="menu-btn"></div>
+    <div class="menu-btn" style="display:none"></div>
     <div class="menu">
         <a href="#sec1" class="menu-a">Главная</a>
         <a href="#sec2" class="menu-a">Уточнить стоимость</a>
@@ -749,7 +771,7 @@
     <script type=text/javascript src=js/jquery.mousewheel.min.js></script>
     <script type=text/javascript src=js/jquery.simplr.smoothscroll.min.js></script>
     <script type=text/javascript src="js/jquery.featureCarousel.min.js"></script>
-    <script type=text/javascript src=js/main.min.js></script>
+    <script type=text/javascript src=js/main.js></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script type="text/javascript">ymaps.ready(function () {var myMap = new ymaps.Map('map-wrap', {center: [55.758631,37.592237813491806],zoom: 13,controls: [] }),myPlacemark = new ymaps.Placemark([55.735721,37.592237813491806], {}, {iconLayout: 'default#image',iconImageHref: 'img/map-ico.png',iconImageSize: [486, 432],iconImageOffset: [-188, -402]});myMap.controls.add('zoomControl'); myMap.geoObjects.add(myPlacemark);myMap.behaviors.disable('scrollZoom');});</script>
     <script type="text/javascript">

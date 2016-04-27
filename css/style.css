@@ -574,8 +574,8 @@ display: block;
 .site-nav:after{position: absolute;width: 80px;height: 100%;top: 0;z-index: -1;transition: all 0.25s;}
 .site-nav{
     position: fixed;
-    position: fixed;
-    width: 50%;
+    position: absolute;
+    width: 8%;
     max-width: 90px;
     height: 100%;
     z-index: 1;
@@ -621,7 +621,7 @@ display: block;
 .site-nav:hover:before{
     top:50%;
 }
-.site-nav.up:after{left: 0;background: rgba(255, 255, 255, 0.15);transition: all 0.25s;}
+.site-nav.up:after{left: 0;background: rgba(0,0,0, 0.15);transition: all 0.25s;}
 .site-nav.down{
     right: 0;
 }
@@ -629,7 +629,7 @@ display: block;
 
 .site-nav.down:after{
     right: 0;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.15);
 }
 
 .site-nav.up{z-index: 20;}
