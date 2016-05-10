@@ -3,7 +3,7 @@ function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w
 
 $(document).ready(function() {
   setTimeout(function(){if(!$('body').hasClass('loaded')) {$('body').addClass('loaded')};},3000);
-  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/feature-carousel.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
+  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/head.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/feature-carousel.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
 var data_model;
 var cach_step=1;
 var is_animating = 0;
