@@ -1,9 +1,20 @@
 function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;} 
 function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;return re.test(email);};
 
+//мобильное устройство?
+var isMobile = false; 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+isMobile = true;
+}
+
+if (isMobile == true) {
+  $('.animation').addClass('animated');
+  $('<style>.animation,.animation *{opacity:1;transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section{height:800px!important}</style>').appendTo('head');
+}
+
 $(document).ready(function() {
   setTimeout(function(){if(!$('body').hasClass('loaded')) {$('body').addClass('loaded')};},3000);
-  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/head.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/feature-carousel.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
+  $('<link rel="stylesheet" href="css/normalize.min.css"><link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css"><link rel="stylesheet" href="css/animate.css"><link rel="stylesheet" href="css/feature-carousel.css"><link rel="stylesheet" href="css/fonts.css"><link rel="stylesheet" href="css/style.css">').appendTo('head');
 var data_model;
 var cach_step=1;
 var is_animating = 0;
