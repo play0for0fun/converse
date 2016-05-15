@@ -24,7 +24,7 @@
     </div>
     <script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none";document.getElementsByTagName("BODY")[0].style.padding="0";}</script>
     <div id="pages">
-      <header class="section">
+      <header class="section" id="sec1">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -165,7 +165,7 @@
           <p class="sect-form-p"><span >Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
         </div>
       </section>
-      <section class="gall cd-section section">
+      <section class="gall cd-section section" id="sec4">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -310,7 +310,7 @@
           </div>
         </div>
       </section>
-      <section class="kach1 cd-section section">
+      <section class="kach1 cd-section section" id="sec6">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -338,7 +338,7 @@
           </div>
         </div>
       </section>
-      <section class="kach2 cd-section section">
+      <section class="kach2 cd-section section" id="sec7">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -362,7 +362,7 @@
           </div>
         </div>
       </section>
-      <section class="kach3 cd-section section">
+      <section class="kach3 cd-section section" id="sec8">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -382,7 +382,7 @@
           </div>
         </div>
       </section>
-      <section class="double-from cd-section section">
+      <section class="double-from cd-section section" id="sec9">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -498,7 +498,7 @@
           </div>
         </div>
       </section>
-      <section class="otz cd-section section">
+      <section class="otz cd-section section" id="sec10">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -557,7 +557,7 @@
           </div>
         </div>
       </section>
-      <section class="calc-st1 cd-section section">
+      <section class="calc-st1 cd-section section" id="sec11">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
@@ -698,7 +698,7 @@
           </div>
         </div>
       </section>
-      <section class="map cd-section section">
+      <section class="map cd-section section" id="sec12">
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div id="map-wrap"></div>
@@ -748,15 +748,14 @@
     <div class="menu-btn"></div>
     <div class="menu">
         <a href="#sec1" class="menu-a">Главная</a>
-        <a href="#sec2" class="menu-a">Помогите нам</a>
-        <a href="#sec3" class="menu-a">Причины</a>
-        <a href="#sec4" class="menu-a">Почему</a>
-        <a href="#sec5" class="menu-a">Где находится объект?</a>
-        <a href="#sec6" class="menu-a">Прочитайте</a>
-        <a href="#sec7" class="menu-a">Факты</a>
-        <a href="#sec8" class="menu-a">Этапы работы</a>
-        <a href="#sec9" class="menu-a">Кто боится судов</a>
-        <a href="#sec10" class="menu-a">Контакты</a>
+        <a href="#sec-2-slider" class="menu-a">Как отличить</a>
+        <a href="#sec3" class="menu-a">Выбери свои кеды</a>
+        <a href="#sec4" class="menu-a">Все выбирают</a>
+        <a href="#new-calc" class="menu-a">Выбери свои оригинальные</a>
+        <a href="#sec9" class="menu-a">Порадуйте</a>
+        <a href="#sec10" class="menu-a">Отзывы</a>
+        <a href="#sec11" class="menu-a">Скидка</a>
+        <a href="#sec12" class="menu-a">Контакты</a>
     </div>
     <script type=text/javascript src=js/jquery-2.1.4.min.js></script>
     <script type=text/javascript src=js/jquery.cookie.min.js></script>
