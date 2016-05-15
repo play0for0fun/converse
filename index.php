@@ -41,8 +41,8 @@
           </div>
           <a href="#" class="logo"></a>
           <div class="head-middle">
-            <h1 class="head-h1 animation1">ХОТИТЕ КУПИТЬ ОРИГИНАЛЬНЫЕ КЕДЫ <span>CONVERSE</span>?<br>Бесплатная доставка за 1 день<br>Оплата после примерки!</h1>
-            <p class="head-gar animation1"><span class="head-gar-star">365</span><span class="head-gar-text">Гарантия обмена<br>возврата 365 дней</span></p>
+            <h1 class="head-h1 ">ХОТИТЕ КУПИТЬ ОРИГИНАЛЬНЫЕ КЕДЫ <span>CONVERSE</span>?<br>Бесплатная доставка за 1 день<br>Оплата после примерки!</h1>
+            <p class="head-gar "><span class="head-gar-star">365</span><span class="head-gar-text">Гарантия обмена<br>возврата 365 дней</span></p>
           </div>
           <a href="#sec-2-slider" class="haed-mouse"></a>
         </div>
@@ -51,7 +51,7 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h222"><h2 class="animation1 full-visible">Как отличить оригинальные <span style="color: #ef472d;">Сonverse</span> от кед за 1500 руб.?</div>
+          <div class="kach-h222"><h2 class="full-visible">Как отличить оригинальные <span style="color: #ef472d;">Сonverse</span> от кед за 1500 руб.?</h2></div>
           <div class="slide-content carousel-container">
             <div class="slide-nav" id="but_prev"><img src="img/next.png" alt="next"></div>
             <div class="slide-wrap" id="carousel">
@@ -105,9 +105,9 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="sect-form-h2"><h2 class="animation1">Выбери свои кеды<br><span>CONVERSE</span></h2></div>
+          <div class="sect-form-h2"><h2>Выбери свои кеды<br><span>CONVERSE</span></h2></div>
           <div class="sect-form-middle">
-            <div class="sect-form-picker animation1">
+            <div class="sect-form-picker ">
               <span class="setc-form-price"><span class="main-price">2 499</span><span class="rouble-big"></span></span>
               <span class="calc-st5-label">Выберите размер</span>
               <div class="selection-w" data-name="size">
@@ -143,8 +143,8 @@
                 <span data-value="blue" data-short="1" data-male="1"></span>
               </div>
             </div>
-            <div class="sect-form-tov animation1" data-color="red" data-model="hi"></div>
-            <form action="ajax/mail.php" method="post" class="sect-form-form animation1">
+            <div class="sect-form-tov " data-color="red" data-model="hi"></div>
+            <form action="ajax/mail.php" method="post" class="sect-form-form ">
               <span class="sect-form-prim">Бесплатная<br>примерка<br><span>до 2х<br>моделей</span></span>
               <span class="calc-st5-label">Введите<br>Ваши данные</span>
               <input type="text" class="calc-st5-inp" name="name" placeholder="Имя">
@@ -162,7 +162,7 @@
               </div>
             </form>
           </div>
-          <p class="sect-form-p"><span class="animation1">Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
+          <p class="sect-form-p"><span >Обувь как на фото. 100% соответствие<br>товара фотографиям на сайте</span></p>
         </div>
       </section>
       <section class="gall cd-section section">
@@ -170,7 +170,7 @@
  <div class="site-nav down"></div>
         <div class="wrap">
           <div class="gall-middle">
-            <div class="animation1">
+            <div>
               <h2 class="gall-h2">Все выбирают Converse</h2>
               <p class="gall-p">57000 покупателей в 80 регионах рф за 5 лет</p>
             </div>
@@ -182,18 +182,18 @@
  <div class="site-nav down"></div>
         <div class="wrap">
           <div class="calc-heading">
-            <div class="animation1">
+            <div>
               <h3 class="calc-h3">Выбери свои оригинальные <span>CONVERSE</span></h3>
             </div>
           </div>
           <div class="calc-heading-2">
-            <h4 class="calc-h4 animation1" data-step="2">Выбери высоту кед!</h4>
+            <h4 class="calc-h4" data-step="2">Выбери высоту кед!</h4>
             <h4 class="calc-h4" data-step="3"><span class="calc-back">Назад</span>Для кого подбираем кеды?</h4>
             <h4 class="calc-h4" data-step="4"><span class="calc-back">Назад</span>Выбери свой цвет и размер для примерки</h4>
             <h4 class="calc-h4" data-step="5"><span class="calc-back">Назад</span>Заполни форму и получи свои CONVERSE уже завтра!»</h4>
           </div>
           <div class="calc-middle">
-            <div class="calc-wrap animation1" data-step="2">
+            <div class="calc-wrap " data-step="2">
               <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="hi">Высокие</a></div>
               <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="model" data-value="short">Низкие</a></div>
             </div>
@@ -314,11 +314,11 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
-          <div class="animation2 kedw" data-step="1">
+          <div class="kach-h2"><h2>Качество в деталях</h2></div>
+          <div class=" kedw" data-step="1">
             <div class="kach1-img"></div>
           </div>
-          <div class="kach-punkt-wrap animation3" data-step="1">
+          <div class="kach-punkt-wrap " data-step="1">
             <div class="kach-punkt">
               <h4 class="kach-punkt-h4">Узнаваемый стиль</h4>
               <p class="kach-punkt-p">Бренд, который говорит<br>сам за себя</p>
@@ -342,8 +342,8 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
-          <div class="animation2 kedw" data-step="2">
+          <div class="kach-h2"><h2>Качество в деталях</h2></div>
+          <div class="kedw" data-step="2">
             <div class="kach1-img"></div>
           </div>
           <div class="kach-punkt-wrap" data-step="2">
@@ -366,11 +366,11 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h2"><h2 class="animation1">Качество в деталях</h2></div>
-          <div class="animation2 kedw" data-step="3">
+          <div class="kach-h2"><h2>Качество в деталях</h2></div>
+          <div class=" kedw" data-step="3">
             <div class="kach1-img"></div>
           </div>
-          <div class="kach-punkt-wrap animation3" data-step="3">
+          <div class="kach-punkt-wrap " data-step="3">
             <div class="kach-punkt">
               <h4 class="kach-punkt-h4">Подошва не стирается</h4>
               <p class="kach-punkt-p">Вулканизированная<br>резина</p>
@@ -386,9 +386,9 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="double-form-h2"><h2 class="animation1">Порадуйте свою вторую половинку</h2></div>
-          <div class="double-form-p"><p class="animation1">При заказе мужской и женской модели Converse <span class="double-form-red">скидка 500<span></span></span></p></div>
-          <div class="double-form-form animation1">
+          <div class="double-form-h2"><h2>Порадуйте свою вторую половинку</h2></div>
+          <div class="double-form-p"><p>При заказе мужской и женской модели Converse <span class="double-form-red">скидка 500<span></span></span></p></div>
+          <div class="double-form-form ">
             <form action="ajax/mail.php" method="post" class="double_crm">
               <div class="double-form-left double-form-sex double-form-active" data-value="female">
                 <div class="double-form-img" data-model="hi" data-color="red"></div>
@@ -503,7 +503,7 @@
  <div class="site-nav down"></div>
         <div class="wrap">
           <div class="otz-middle">
-            <div class="otz-foto-ul animation1" id="otz-pager">
+            <div class="otz-foto-ul" id="otz-pager">
               <a data-slide-index="0" href=""></a>
               <a data-slide-index="1" href=""></a>
               <a data-slide-index="2" href=""></a>
@@ -512,7 +512,7 @@
               <a data-slide-index="5" href=""></a>
               <a data-slide-index="6" href=""></a>
             </div>
-            <div class="otz-wrap animation1">
+            <div class="otz-wrap ">
               <ul class="otz-ul">
                 <li>
                   <h5 class="otz-h5">Мы изучили их на все знаки отличия,<br>не подделка</h5>
@@ -562,20 +562,20 @@
  <div class="site-nav down"></div>
         <div class="wrap">
           <div class="calc-heading">
-            <div class="animation1">
+            <div>
               <p class="calc-h2-skidk"><span class="calc-skidk-proc">10%</span><span class="calc-skidk-proc-text">Получи скидку 10% от наших<br>официальных партнеров при покупке<br>кед Converse в нашем магазине</span></p>
               <h3 class="calc-h3">При покупке кед Converse<br>дарим купон на <span>Скидку</span></h3>
             </div>
           </div>
           <div class="calc-heading-2">
-            <h4 class="calc-h4 animation1" data-step="1">Выбирай, на что ты хочешь скидку?</h4>
+            <h4 class="calc-h4 " data-step="1">Выбирай, на что ты хочешь скидку?</h4>
             <h4 class="calc-h4" data-step="2"><span class="calc-back">Назад</span>Выбери высоту кед!</h4>
             <h4 class="calc-h4" data-step="3"><span class="calc-back">Назад</span>Для кого подбираем кеды?</h4>
             <h4 class="calc-h4" data-step="4"><span class="calc-back">Назад</span>Выбери свой цвет и размер для примерки</h4>
             <h4 class="calc-h4" data-step="5"><span class="calc-back">Назад</span>Заполни форму и мы отправил тебе на емейл скидочный купон</h4>
           </div>
           <div class="calc-middle">
-            <div class="calc-wrap animation1" data-step="1">
+            <div class="calc-wrap" data-step="1">
               <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Mini Борд" data-number="1">Mini Борд</a></div>
               <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Футболка DC" data-number="2">Футболка DC</a></div>
               <div class="calc-st1-item"><a href="" class="calc-st1-btn" data-name="skida" data-value="Джинсы Levi’s" data-number="3">Джинсы Levi’s</a></div>
@@ -702,7 +702,7 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div id="map-wrap"></div>
-        <div class="maph2"><h2 class="animation1">самовывоз в центре города на<br>парке культуры <span>в 2х минутах<br>от метро</span> в нашем шоу-руме № 45</h2></div>
+        <div class="maph2"><h2>самовывоз в центре города на<br>парке культуры <span>в 2х минутах<br>от метро</span> в нашем шоу-руме № 45</h2></div>
         <footer>
           <div class="wrap">
             <a class="conf-a">Политика конфиденциальности</a>
@@ -745,17 +745,17 @@
         <div class="okgo-close">Закрыть окно</div>
       </div>
     </div>
-    <div class="menu-btn" style="display:none"></div>
+    <div class="menu-btn"></div>
     <div class="menu">
         <a href="#sec1" class="menu-a">Главная</a>
-        <a href="#sec2" class="menu-a">Уточнить стоимость</a>
-        <a href="#sec3" class="menu-a">Плавающий фундамент</a>
-        <a href="#sec4" class="menu-a">Работы мастеров</a>
-        <a href="#sec5" class="menu-a">Памятники и тумбы</a>
-        <a href="#sec6" class="menu-a">Премиум памятники</a>
-        <a href="#sec7" class="menu-a">Этапы изготовления</a>
-        <a href="#sec8" class="menu-a">Благоустройство захоронений</a>
-        <a href="#sec9" class="menu-a">Примеры наших работ</a>
+        <a href="#sec2" class="menu-a">Помогите нам</a>
+        <a href="#sec3" class="menu-a">Причины</a>
+        <a href="#sec4" class="menu-a">Почему</a>
+        <a href="#sec5" class="menu-a">Где находится объект?</a>
+        <a href="#sec6" class="menu-a">Прочитайте</a>
+        <a href="#sec7" class="menu-a">Факты</a>
+        <a href="#sec8" class="menu-a">Этапы работы</a>
+        <a href="#sec9" class="menu-a">Кто боится судов</a>
         <a href="#sec10" class="menu-a">Контакты</a>
     </div>
     <script type=text/javascript src=js/jquery-2.1.4.min.js></script>

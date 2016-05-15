@@ -8,8 +8,8 @@ isMobile = true;
 }
 
 if (isMobile == true) {
-  $('.animation').addClass('animated');
-  $('<style>.animation,.animation *{opacity:1;transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section{height:800px!important}</style>').appendTo('head');
+  $('.animation,.animation1,.animation2,.animation3').addClass('animated');
+  $('<style>.animation,.animation,.animation1,.animation2,.animation3 *{opacity:1;transition:0s all 0s!important;animation-duration:0s!important;animation-delay:0s!important}.site-nav.down,.site-nav.up{display:none!important}header,section{height:800px!important}</style>').appendTo('head');
 }
 
 $(document).ready(function() {
@@ -569,10 +569,10 @@ $('.sect-form-mod[data-value="short"]').trigger('click');
   if (!$('body').hasClass('loaded')) {$('body').addClass('loaded')};
   slider1 = $('.otz-ul').bxSlider({pager:true, pagerCustom: '#otz-pager' , controls:false, auto:true, speed: 1000, pause:5000,mode:'fade',startSlide:3,onSlideBefore:function($slideElement, oldIndex, newIndex){
         var newInd = newIndex+1;
-        $('.otz-ul li:nth-child('+newInd+')').addClass('slideInDown2 animated');
+        $('.otz-ul li:nth-of-type('+newInd+')').addClass('slideInDown2 animated');
     },onSlideAfter:function($slideElement, oldIndex, newIndex){
         var newInd = newIndex+1;
-        $('.otz-ul li:nth-child('+newInd+')').removeClass('slideInDown2 animated');
+        $('.otz-ul li:nth-of-type('+newInd+')').removeClass('slideInDown2 animated');
     }});
 });
 
