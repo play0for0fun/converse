@@ -150,6 +150,8 @@ $('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ 
         par.find('.calc-wrap[data-step="'+cur+'"]').removeClass('visible-a');
         par.find('.calc-wrap[data-step="'+next+'"]').removeClass('hidden-a');
     }
+
+    
     $('.selection-ul li').click(function(){
       var inp_name = $(this).parent().parent().data('name');
       var inp_value = $(this).data('value');
@@ -549,21 +551,6 @@ $("html, body").on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touch
   $("html, body").stop();
 });
 
-$(window).scroll(function(){
-
-//if ($(window).scrollTop()-$(window).height()>= 0) {
-//  $('.menu-btn').addClass('active');
-//}else{
-//  $('.menu-btn').removeClass('active');
-//}
-
-  clearTimeout($.data(this, 'scrollTimer'));
-  
-  $.data(this, 'scrollTimer',setTimeout(stabilize,1500));
-
-});
-
-
 $(window).load(function(){
 
 //зміна початкового вибору
@@ -580,18 +567,12 @@ $('.sect-form-mod[data-value="short"]').trigger('click');
         $('.otz-ul li:nth-of-type('+newInd+')').removeClass('slideInDown2 animated');
     }});
 });
-
-//$(function () {
-//  $.srSmoothscroll({
-    // defaults
-//    step: 55,
-//    speed: 400,
-//    ease: 'swing',
-//    target: $('body'),
-//    container: $(window)
-//  })
-//})
 $(window).scroll(function(){
+
+
+  clearTimeout($.data(this, 'scrollTimer'));
+  
+  $.data(this, 'scrollTimer',setTimeout(stabilize,1500));
 
 if ($(window).scrollTop()-$(window).height()>= 0) {
   $('.menu-btn').addClass('active');
