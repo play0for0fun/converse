@@ -25,8 +25,7 @@
     <script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none";document.getElementsByTagName("BODY")[0].style.padding="0";}</script>
     <div id="pages">
       <header class="section" id="sec1">
-  <div class="site-nav up"></div>
- <div class="site-nav down"></div>
+ <div class="site-nav down animation4 animated"></div>
         <div class="wrap">
           <div class="head-left">
             <p class="head-om">Официальный магазин</p>
@@ -700,7 +699,6 @@
       </section>
       <section class="map cd-section section" id="sec12">
   <div class="site-nav up"></div>
- <div class="site-nav down"></div>
         <div id="map-wrap"></div>
         <div class="maph2"><h2>самовывоз в центре города на<br>парке культуры <span>в 2х минутах<br>от метро</span> в нашем шоу-руме № 45</h2></div>
         <footer>

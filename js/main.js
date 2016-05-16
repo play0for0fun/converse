@@ -526,16 +526,21 @@ var carousel = $('#carousel').featureCarousel({
 
 function stabilize(){
 
-  $('.section').each(function(index, el) {
-  
-  var eTop = $(this).offset().top; 
-  var posTop = eTop - $(window).scrollTop();
+  if (isMobile != true) {
 
-    if(posTop>-$(window).height()/2&&posTop<$(window).height()/2){
-      $("html, body").animate({ scrollTop: $(this).offset().top}, 250);
-    }
+    $('.section').each(function(index, el) {
+    
+    var eTop = $(this).offset().top; 
+    var posTop = eTop - $(window).scrollTop();
 
-  });
+      if(posTop>-$(window).height()/2&&posTop<$(window).height()/2){
+        $("html, body").animate({ scrollTop: $(this).offset().top}, 250);
+      }
+
+    });
+
+  }
+
 
 }
 
