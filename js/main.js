@@ -151,7 +151,7 @@ $('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ 
         par.find('.calc-wrap[data-step="'+next+'"]').removeClass('hidden-a');
     }
 
-    
+
     $('.selection-ul li').click(function(){
       var inp_name = $(this).parent().parent().data('name');
       var inp_value = $(this).data('value');
