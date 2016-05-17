@@ -10,14 +10,7 @@
     <meta id="viewport" name="viewport" content="width=1120">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style><? include('css/head.css'); ?></style>
-    <script>
-    (function(_,r,e,t,a,i,l){_['retailCRMObject']=a;_[a]=_[a]||function(){(_[a].q=_[a].q||[]).push(arguments)};_[a].l=1*new Date();l=r.getElementsByTagName(e)[0];i=r.createElement(e);i.async=!0;i.src=t;l.parentNode.insertBefore(i,l)})(window,document,'script','https://collector.retailcrm.ru/w.js','_rc');
-    _rc('create', 'RC-68102261415-40');
-    _rc('send', 'pageView');
-    </script>
-    <!--Start of PopMechanic script--> 
-<script id="popmechanic-script" src="https://static.popmechanic.ru/service/loader.js?c=142"></script> 
-<!--End of PopMechanic script-->
+    <? include('track/head.php'); ?>
   </head>
   <body>
     <div id="loader-wrapper">
@@ -772,30 +765,7 @@
     <script type=text/javascript src="js/jquery.featureCarousel.min.js"></script>
     <script type=text/javascript src=js/main.js></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-    <script type="text/javascript">ymaps.ready(function () {var myMap = new ymaps.Map('map-wrap', {center: [55.758631,37.592237813491806],zoom: 13,controls: [] }),myPlacemark = new ymaps.Placemark([55.735721,37.592237813491806], {}, {iconLayout: 'default#image',iconImageHref: 'img/map-ico.png',iconImageSize: [486, 432],iconImageOffset: [-188, -402]});myMap.controls.add('zoomControl'); myMap.geoObjects.add(myPlacemark);myMap.behaviors.disable('scrollZoom');});</script>
-    <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-74256028-1', 'auto');
-    function getCookie(name) {
-    var matches = document.cookie.match(new RegExp(
-    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-    ));
-    return matches ? decodeURIComponent(matches[1]) : "";
-    }
-    ga('set', 'dimension1', getCookie("_ga"));
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
-    /* Accurate bounce rate by time */
-    if (!document.referrer ||
-    document.referrer.split('/')[2].indexOf(location.hostname) != 0)
-    setTimeout(function(){
-    ga('send', 'event', 'Новый посетитель', location.pathname);
-    }, 15000);
-    ga('send', 'pageview');
-    </script>
-    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter35707620 = new Ya.Metrika({ id:35707620, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/35707620" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+    <script type=text/javascript src=js/map.js></script>
+    <? include('track/body.php'); ?>
   </body>
 </html>
