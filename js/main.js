@@ -100,7 +100,7 @@ $('.menu-btn').click(function(){
     menu_active = 0;
   }
 });
-$('section').click(function(){
+$('section,header').click(function(){
   if (menu_active == 1) {
     $('.menu').removeClass('active');
     $('.menu-btn').removeClass('as-close');

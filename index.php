@@ -15,6 +15,9 @@
     _rc('create', 'RC-68102261415-40');
     _rc('send', 'pageView');
     </script>
+    <!--Start of PopMechanic script--> 
+<script id="popmechanic-script" src="https://static.popmechanic.ru/service/loader.js?c=142"></script> 
+<!--End of PopMechanic script-->
   </head>
   <body>
     <div id="loader-wrapper">
@@ -341,7 +344,7 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h2"><h2>Качество в деталях</h2></div>
+          <div class="kach-h2 op"><h2>Качество в деталях</h2></div>
           <div class="kedw" data-step="2">
             <div class="kach1-img"></div>
           </div>
@@ -365,7 +368,7 @@
   <div class="site-nav up"></div>
  <div class="site-nav down"></div>
         <div class="wrap">
-          <div class="kach-h2"><h2>Качество в деталях</h2></div>
+          <div class="kach-h2 op"><h2>Качество в деталях</h2></div>
           <div class=" kedw" data-step="3">
             <div class="kach1-img"></div>
           </div>
@@ -750,6 +753,7 @@
         <a href="#sec3" class="menu-a">Выбери свои кеды</a>
         <a href="#sec4" class="menu-a">Все выбирают</a>
         <a href="#new-calc" class="menu-a">Выбери свои оригинальные</a>
+        <a href="#sec6" class="menu-a">Качество в деталях</a>
         <a href="#sec9" class="menu-a">Порадуйте</a>
         <a href="#sec10" class="menu-a">Отзывы</a>
         <a href="#sec11" class="menu-a">Скидка</a>
