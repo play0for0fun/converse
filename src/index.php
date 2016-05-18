@@ -742,14 +742,12 @@
     <div class="menu-btn"></div>
     <div class="menu">
         <a href="#sec1" class="menu-a">Главная</a>
-        <a href="#sec-2-slider" class="menu-a">Как отличить</a>
+        <a href="#sec-2-slider" class="menu-a">О поделках</a>
         <a href="#sec3" class="menu-a">Выбери свои кеды</a>
-        <a href="#sec4" class="menu-a">Все выбирают</a>
-        <a href="#new-calc" class="menu-a">Выбери свои оригинальные</a>
         <a href="#sec6" class="menu-a">Качество в деталях</a>
-        <a href="#sec9" class="menu-a">Порадуйте</a>
+        <a href="#sec9" class="menu-a">Акция для пар </a>
         <a href="#sec10" class="menu-a">Отзывы</a>
-        <a href="#sec11" class="menu-a">Скидка</a>
+        <a href="#sec11" class="menu-a">Скидки от партнеров</a>
         <a href="#sec12" class="menu-a">Контакты</a>
     </div>
     <script type=text/javascript src=js/jquery-2.1.4.min.js></script>
