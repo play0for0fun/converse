@@ -151,6 +151,7 @@
               <input type="hidden" name="sex" value="male">
               <input type="hidden" name="color" value="red">
               <input type="hidden" name="size" value="37">
+              <input type="hidden" name="event" value="vsk_btn">
               <div class="calc-st5-conf">
                 <span class="calc-st5-conf-check conf-checked"></span>
                 <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
@@ -296,6 +297,7 @@
                 <input type="hidden" name="sex" value="male">
                 <input type="hidden" name="color" value="red">
                 <input type="hidden" name="size" value="37">
+                <input type="hidden" name="event" value="vso_btn">
                 <div class="calc-st5-conf">
                   <span class="calc-st5-conf-check conf-checked"></span>
                   <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
@@ -484,6 +486,7 @@
                 <input type="hidden" name="alt_sex" value="male">
                 <input type="hidden" name="alt_color" value="red">
                 <input type="hidden" name="alt_size" value="40">
+                <input type="hidden" name="event" value="adp_btn">
               </div>
               <div class="calc-st5-conf" style="display:none">
                 <span class="calc-st5-conf-check conf-checked"></span>
@@ -684,6 +687,7 @@
                 <input type="hidden" name="sex" value="male">
                 <input type="hidden" name="color" value="red">
                 <input type="hidden" name="size" value="37">
+                <input type="hidden" name="event" value="sop_btn">
                 <div class="calc-st5-conf">
                   <span class="calc-st5-conf-check conf-checked"></span>
                   <span class="calc-st5-conf-text">Согласен с политикой<br>конфиденциальности</span>
@@ -718,6 +722,7 @@
           <input type="text" class="calc-st5-inp" name="email" placeholder="Ваша почта">
           <input type="hidden" name="form" value="Заказать звонок">
           <input type="submit" class="calc-st5-inp-btn" value="Отправить">
+          <input type="hidden" name="event" value="zz_btn">
           <div class="calc-st5-conf" style="display:none">
             <span class="calc-st5-conf-check conf-checked"></span>
           </div>
@@ -745,7 +750,7 @@
         <a href="#sec-2-slider" class="menu-a">О поделках</a>
         <a href="#sec3" class="menu-a">Выбери свои кеды</a>
         <a href="#sec6" class="menu-a">Качество в деталях</a>
-        <a href="#sec9" class="menu-a">Акция для пар </a>
+        <a href="#sec9" class="menu-a">Акция для пар</a>
         <a href="#sec10" class="menu-a">Отзывы</a>
         <a href="#sec11" class="menu-a">Скидки от партнеров</a>
         <a href="#sec12" class="menu-a">Контакты</a>

@@ -435,6 +435,7 @@ setTimeout(change_color_sizes,100);
             var d_name = $(this).find('input[name="name"]').val();
             var d_phone = $(this).find('input[name="phone"]').val();
             var d_email = $(this).find('input[name="email"]').val();
+            var track_event=$(this).find('input[name="event"]').val();
             var d_commentary = 'Форма: '+$(this).find('input[name="form"]').val()+'; Осн.заказ: '+$(this).find('input[name="sex"]').val()+' '+$(this).find('input[name="model"]').val()+' '+$(this).find('input[name="color"]').val()+' '+' '+$(this).find('input[name="size"]').val()+'; Альт.Заказ: '+$(this).find('input[name="alt_sex"]').val()+' '+$(this).find('input[name="alt_model"]').val()+' '+$(this).find('input[name="alt_color"]').val()+' '+' '+$(this).find('input[name="alt_size"]').val()+'; Скидка: '+$(this).find('input[name="skidka"]').val();
 
               _rc('send', 'order', {
@@ -456,7 +457,7 @@ setTimeout(change_color_sizes,100);
                 $.arcticmodal('close');$('#okgo').arcticmodal();
                 $('input[type="text"]').val('');
                 ga('send','event','submit','submit');
-                yaCounter35707620.reachGoal('submit');
+                yaCounter35707620.reachGoal(track_event);
             }
         }); 
         }
