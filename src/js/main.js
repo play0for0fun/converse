@@ -392,6 +392,18 @@ setTimeout(change_color_sizes,100);
         }
       });
     });
+    $('.btn_form').click(function(e){
+      e.preventDefault();
+      $('#pop_form').arcticmodal({
+        afterOpen:function(){
+          $('<div class="close-big"></div>').appendTo('.arcticmodal-container_i2');
+
+          $('.close-big').click(function(){
+            $.arcticmodal('close');
+          });
+        }
+      });
+    });
 
     $('.haed-mouse').click(function(e){
       e.preventDefault();
