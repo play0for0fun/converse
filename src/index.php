@@ -721,11 +721,11 @@
           <div class="calc-btn-gr">
           <div class="calc-btn-l">
             <a href="" class="calc-stt-btn" data-name="model" data-value="hi">Высокие</a>
-            <a href="" class="calc-stt-btn" data-name="model" data-value="short">Низкие</a>
+            <a href="" class="calc-stt-btn active" data-name="model" data-value="short">Низкие</a>
           </div>
           <div class="calc-btn-r">
             <a href="" class="calc-stt-btn" data-name="sex" data-value="female">Женские</a>
-            <a href="" class="calc-stt-btn" data-name="sex" data-value="male">Мужские</a>
+            <a href="" class="calc-stt-btn active" data-name="sex" data-value="male">Мужские</a>
           </div>
           </div>
           <div class="calc-middle">
@@ -760,7 +760,7 @@
           </div>
         </div>
       </section>
-      <section class="double-from cd-section section" id="new-calc">
+      <section class="double-from cd-section section" id="new-calc2">
         <div class="wrap">
         <div class="calc-heading">
             <div>
@@ -777,127 +777,267 @@
             <a href="" class="calc-stt-btn" data-name="sex" data-value="male">Мужские</a>
           </div>
           </div>
-          <div class="form-form">
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="pink"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+          <div class="form-form" data-male="male">
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="yellow"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="red"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="white"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="black"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="white-black"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="white-black"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="white-black"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="white"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="black"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
-              <div class="double-form-point" data-value="female">
-                <div class="double-form-img" data-model="hi" data-color="yellow"></div>
-                <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
-                <div class="selection-w" data-name="size">
-                  <span class="selection-current">40 (25,5см)</span>
-                  <ul class="selection-ul">
-                    <li data-value="36" data-female="1">36 (22,5см)</li>
-                    <li data-value="37" data-female="1">37 (23,5см)</li>
-                    <li data-value="38" data-female="1">38 (24,5см)</li>
-                    <li data-value="39" data-female="1">39 (24,5см)</li>
-                    <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
-                    <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
-                    <li data-value="42" data-male="1">42 (27см)</li>
-                    <li data-value="43" data-male="1">43 (28см)</li>
-                    <li data-value="44" data-male="1">44 (28,5см)</li>
-                    <li data-value="45" data-male="1">45 (29,5см)</li>
-                  </ul>
-                </div>
-                <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="red"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
               </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="hi" data-color="pink"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="white"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="beg"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="black"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>            
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="red"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>                           
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="blue"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>                        
+            <div class="double-form-point">
+              <div class="double-form-img" data-model="short" data-color="pink"></div>
+              <span class="double-form-price"><span class="price">2 499</span><span class="rouble"></span></span>
+              <div class="selection-w" data-name="size">
+                <span class="selection-current">40 (25,5см)</span>
+                <ul class="selection-ul">
+                  <li data-value="36" data-female="1">36 (22,5см)</li>
+                  <li data-value="37" data-female="1">37 (23,5см)</li>
+                  <li data-value="38" data-female="1">38 (24,5см)</li>
+                  <li data-value="39" data-female="1">39 (24,5см)</li>
+                  <li data-value="40" data-female="1" data-male="1">40 (25,5см)</li>
+                  <li data-value="41" data-female="1" data-male="1">41 (26см)</li>
+                  <li data-value="42" data-male="1">42 (27см)</li>
+                  <li data-value="43" data-male="1">43 (28см)</li>
+                  <li data-value="44" data-male="1">44 (28,5см)</li>
+                  <li data-value="45" data-male="1">45 (29,5см)</li>
+                </ul>
+              </div>
+              <a href="" class="calc-stn-btnm btn_form">Заказать</a>
+            </div>
           </div>
         </div>
       </section>
@@ -927,7 +1067,7 @@
               <input type="text" class="calc-st5-inp" name="phone" placeholder="Телефон">
               <input type="text" class="calc-st5-inp" name="email" placeholder="Почта">
               <input type="submit" class="calc-st5-inp-btn" value="Заказать">
-              <input type="hidden" name="form" value="Выбери свои кеды">
+              <input type="hidden" name="form" value="">
               <input type="hidden" name="model" value="hi">
               <input type="hidden" name="sex" value="male">
               <input type="hidden" name="color" value="red">

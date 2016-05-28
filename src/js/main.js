@@ -241,10 +241,11 @@ $('.haed-mouse').click(function(e){e.preventDefault();$("html, body").animate({ 
     });
 
     function change_images(){
-      $('.double-form-img').attr({
+      $('section').not('#new-calc2').find('.double-form-sex').not('.double-form-active').find('.double-form-img').attr({
         'data-model' : alt_cur_model,
         'data-color' : alt_cur_color
       });
+  
       $('.sect-form-tov,.calc-st4-convers,.calc-st5-tovar,.double-form-active .double-form-img').attr({
         'data-model' : cur_model,
         'data-color' : cur_color
@@ -279,6 +280,28 @@ $('.sect-form-color-wrap').children('span[data-'+cur_model+'="1"][data-'+cur_sex
 $('.calc-st4-size').children('li').hide();
 $('.calc-st4-size').children('li[data-'+cur_sex+'="1"]').show();
 
+//для новых блоков
+  $('.calc-stt-btn[data-value="'+cur_model+'"]').trigger('click');
+  $('.calc-stt-btn[data-value="'+cur_sex+'"]').trigger('click');
+
+  $('.form-form').attr('data-male',cur_sex);
+  $('#new-calc2 .double-form-point').hide();
+  if(cur_sex=='male'){
+    $('#new-calc2 .double-form-img[data-model="'+cur_model+'"]').each(function(index, el) {
+      if ($(this).data('color') == 'yellow' || $(this).data('color') == 'beg' || $(this).data('color') == 'black' || $(this).data('color') == 'red' || $(this).data('color') == 'white-black' || $(this).data('color') == 'blue' || $(this).data('color') == 'white'){
+        $(this).parent().show();
+      }
+    });
+  }else{
+    $('#new-calc2 .double-form-img[data-model="'+cur_model+'"]').each(function(index, el) {
+        if ($(this).data('color') == 'white' || $(this).data('color') == 'pink' || $(this).data('color') == 'yellow' || $(this).data('color') == 'beg' || $(this).data('color') == 'black' || $(this).data('color') == 'red' || $(this).data('color') == 'white-black'){
+          $(this).parent().show();
+        }
+      });
+  };
+
+
+
 $('div[data-name="size"]').children('.selection-ul').children('li').hide();
 $('div[data-name="size"]').children('.selection-ul').children('li[data-'+cur_sex+'="1"]').show();
 
@@ -297,6 +320,7 @@ $('.double-form-sex .calc-select-color-wrap').each(function(){
 });
 
 
+
 if($('.double-form-sex').not('.double-form-active').find('.selection-w[data-name="model"]').children('.selection-current').text() == 'Низ.'){
   data_alt_model = 'short';
 }else{
@@ -308,7 +332,6 @@ if($('.double-form-sex').not('.double-form-active').find('.selection-w[data-name
 
 $('.double-form-sex').not('.double-form-active').find('.double-form-img').attr('data-model',data_alt_model);
     
-
 }
 
 function change_prices(){
@@ -325,6 +348,7 @@ function change_prices(){
 }
  
   $('.main-price').html(price);
+  $('#new-calc2 .double-form-price').children('.price').html(price);
   $('.double-form-sex.double-form-active').find('.price').html(price);
   $('.double-form-sex').not('.double-form-active').find('.price').html(alt_price);
   //console.log(alt_price);
@@ -383,18 +407,6 @@ setTimeout(change_color_sizes,100);
     $('.head-callback').click(function(e){
       e.preventDefault();
       $('#zz-pop').arcticmodal({
-        afterOpen:function(){
-          $('<div class="close-big"></div>').appendTo('.arcticmodal-container_i2');
-
-          $('.close-big').click(function(){
-            $.arcticmodal('close');
-          });
-        }
-      });
-    });
-    $('.btn_form').click(function(e){
-      e.preventDefault();
-      $('#pop_form').arcticmodal({
         afterOpen:function(){
           $('<div class="close-big"></div>').appendTo('.arcticmodal-container_i2');
 
@@ -493,7 +505,7 @@ $('.double-form-sex .selection-w li').click(function(){
     $(this).parent().parent().parent().find('.selection-w[data-name="color"]').find('li[data-value="red"]').trigger('click');
   }
 
-  $('.double-form-sex').not('.double-form-active').find('.double-form-img').attr('data-model',data_alt_model);
+  $('section').not('#new-calc2').find('.double-form-sex').not('.double-form-active').find('.double-form-img').attr('data-model',data_alt_model);
   $('.double-form-sex').not('.double-form-active').find('.selection-w[data-name="color"]').find('li').hide();
   $('.double-form-sex').not('.double-form-active').find('.selection-w[data-name="color"]').find('li[data-'+data_alt_model+'="1"][data-'+data_alt_sex+'="1"]').show();
 
@@ -532,6 +544,54 @@ var carousel = $('#carousel').featureCarousel({
           //console.log('next');
           return false;
     });
+
+// смена контента в новом блоке в зависимости от выбраного варианта
+$('.calc-stt-btn').click(function(e){
+  e.preventDefault();
+  if(!$(this).hasClass('active')){
+
+    if ($(this).data('name')=='sex') {
+      cur_sex = $(this).data('value');
+    }
+    if ($(this).data('name')=='model') {
+      cur_model = $(this).data('value');
+    }
+
+    $('.calc-stt-btn.active[data-name="'+$(this).data('name')+'"]').removeClass('active');
+    $('.calc-stt-btn[data-value="'+$(this).data('value')+'"]').addClass('active');
+    //$('.calc-st1-btn[data-name="'+$(this).data('name')+'"][data-value="'+$(this).data('value')+'"]').trigger('click');
+    
+    change_color_sizes();
+  }
+});
+
+//popap для новых блоков
+
+    $('.btn_form').click(function(e){
+      e.preventDefault();
+      if ($(this).closest('#new-calc').length>0) {
+        $('#pop_form').find('input[name=form]').val('Новый блок, большое изображение');
+        $('#pop_form').find('input[name=event]').val('nc_bnt');
+      }else{
+        $('#pop_form').find('input[name=form]').val('Новый блок, маленькие изображения');
+        $('#pop_form').find('input[name=event]').val('nc2_bnt');
+        cur_color = $(this).parent().children('.double-form-img').data('color');
+      }
+      $('#pop_form').find('input[name=sex]').val(cur_sex);
+      $('#pop_form').find('input[name=color]').val(cur_color);
+      //$('#pop_form').find('input[name=size]').val(cur_size);
+      $('#pop_form').find('input[name=model]').val(cur_model);
+      $('#pop_form').arcticmodal({
+        afterOpen:function(){
+          $('<div class="close-big"></div>').appendTo('.arcticmodal-container_i2');
+
+          $('.close-big').click(function(){
+            $.arcticmodal('close');
+          });
+        }
+      });
+    });
+
 
 
 });
