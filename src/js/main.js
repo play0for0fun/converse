@@ -18,10 +18,10 @@ $(document).ready(function() {
 var data_model;
 var cach_step=1;
 var is_animating = 0;
-var price = '4 399';
-var alt_price = '3 999';
+var price = '4 799';
+var alt_price = '3 799';
 var cur_sex = 'female';
-var cur_model = 'short';
+var cur_model = 'hi';
 var cur_color = 'red';
 var alt_cur_model = 'hi';
 var alt_cur_color = 'red';
@@ -257,15 +257,15 @@ function calculate(){
   var int_alt_price = parseInt(alt_price.replace(/\s+/g, ''));
   if ($('.double-form-active').hasClass('double-form-left')) {
     $('.summ-calc .left').html(price);
-    $('.summ-calc .right').html((int_alt_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
-    $('.double-form-right .price').html((int_alt_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
+    $('.summ-calc .right').html((int_alt_price+1000).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
+    $('.double-form-right .price').html((int_alt_price+1000).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
   }else{
-    $('.summ-calc .left').html((int_alt_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
-    $('.double-form-left .price').html((int_alt_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
+    $('.summ-calc .left').html((int_alt_price+1000).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
+    $('.double-form-left .price').html((int_alt_price+1000).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
     $('.summ-calc .right').html(price);
   }
   $('.summ-is').html((int_alt_price+int_price).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
-  $('.summ-calc .summ-not').html((int_alt_price+int_price+500).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
+  $('.summ-calc .summ-not').html((int_alt_price+int_price+1000).toString().replace(/^(.{1})(.*)$/, "$1 $2"));
   //console.log(int_price,int_alt_price);
 }
 
@@ -342,9 +342,9 @@ function change_prices(){
   }
   if($('.double-form-sex').not('.double-form-active').find('.selection-w[data-name="model"]').children('.selection-current').text() == 'Низ.'){
   
-    alt_price = '3 899';
+    alt_price = '3 399';
 }else{
-    alt_price = '4 299';
+    alt_price = '3 799';
 }
  
   $('.main-price').html(price);
