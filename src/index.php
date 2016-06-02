@@ -64,7 +64,7 @@
           <div class="form-form" data-male="male">
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="yellow"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -84,7 +84,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="white"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -104,7 +104,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="white-black"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -124,7 +124,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="white-black"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -144,7 +144,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="black"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -164,7 +164,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="red"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -184,7 +184,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="hi" data-color="pink"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -204,7 +204,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="white"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -224,7 +224,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="beg"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -244,7 +244,7 @@
             </div>
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="black"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -264,7 +264,7 @@
             </div>            
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="red"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -284,7 +284,7 @@
             </div>                           
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="blue"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -304,7 +304,7 @@
             </div>                        
             <div class="double-form-point">
               <div class="double-form-img" data-model="short" data-color="pink"></div>
-              <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+              <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
               <div class="selection-w" data-name="size">
                 <span class="selection-current">40 (25,5см)</span>
                 <ul class="selection-ul">
@@ -413,7 +413,7 @@
                 <li data-value="36" data-female="1">36<span class="sm-size">(22,5см)</span></li>
               </ul>
               <div class="calc-st4-convers" data-model="hi" data-color="red">
-                <span class="calc-stt-price"><span class="main-price">3 499</span><span class="rouble-calc"></span></span>
+                <span class="calc-stt-price"><span class="main-price">4 399</span><span class="rouble-calc"></span></span>
                 <a href="" class="calc-stn-btn btn_form">Заказать</a>
               </div>
               <div class="calc-st4-color">
@@ -545,7 +545,7 @@
                 <li data-value="36" data-female="1">36<span class="sm-size">(22,5см)</span></li>
               </ul>
               <div class="calc-st4-convers" data-model="hi" data-color="red">
-                <span class="calc-st4-price"><span class="main-price">3 499</span><span class="rouble-calc"></span></span>
+                <span class="calc-st4-price"><span class="main-price">4 399</span><span class="rouble-calc"></span></span>
                 <a href="" class="calc-st5-btn">Далее</a>
               </div>
               <div class="calc-st4-color">
@@ -569,7 +569,7 @@
               <span class="calc-st5-plus">+</span>
               <div class="calc-st5-tovar" data-model="hi" data-color="red">
                 <span class="calc-st5-price">
-                  <span class="main-price">3 499</span><span class="calc-st5-rouble"></span>
+                  <span class="main-price">4 399</span><span class="calc-st5-rouble"></span>
                 </span>
               </div>
               <form action="ajax/mail.php" method="post" class="calc-st5-form">
@@ -718,12 +718,12 @@
  <div class="site-nav down"></div>
         <div class="wrap">
           <div class="double-form-h2"><h2>Порадуйте свою вторую половинку</h2></div>
-          <div class="double-form-p"><p>При заказе мужской и женской модели Converse <span class="double-form-red">скидка 500<span></span></span></p></div>
+          <div class="double-form-p"><p>При заказе мужской и женской модели Converse <span class="double-form-red">скидка 1000<span></span></span></p></div>
           <div class="double-form-form ">
             <form action="ajax/mail.php" method="post" class="double_crm">
               <div class="double-form-left double-form-sex double-form-active" data-value="female">
                 <div class="double-form-img" data-model="hi" data-color="red"></div>
-                <span class="double-form-price"><span class="price">3 499</span><span class="rouble"></span></span>
+                <span class="double-form-price"><span class="price">4 399</span><span class="rouble"></span></span>
                 <h4 class="double-form-h4">Женская модель</h4>
                 <div class="selection-w" data-name="size">
                   <span class="selection-current">40 (25,5см)</span>
@@ -765,7 +765,7 @@
               </div>
               <div class="double-form-right double-form-sex" data-value="male">
                 <div class="double-form-img" data-model="hi" data-color="red"></div>
-                <span class="double-form-price"><span class="price">2 999</span><span class="rouble"></span></span>
+                <span class="double-form-price"><span class="price">3 999</span><span class="rouble"></span></span>
                 <h4 class="double-form-h4">Мужская модель</h4>
                 <div class="selection-w" data-name="size">
                   <span class="selection-current">40 (25,5см)</span>
@@ -825,7 +825,7 @@
               <div class="calc-st5-conf" style="display:none">
                 <span class="calc-st5-conf-check conf-checked"></span>
               </div>
-              <p class="summ-calc"><span class="left">3390</span> + <span class="right">3790</span> = <span class="summ-not">7180</span> <span class="summ-is">6680</span></p>
+              <p class="summ-calc"><span class="left">4399</span> + <span class="right">4799</span> = <span class="summ-not">9198</span> <span class="summ-is">8198</span></p>
             </form>
           </div>
         </div>
@@ -935,7 +935,7 @@
                 <li data-value="36" data-female="1">36<span class="sm-size">(22,5см)</span></li>
               </ul>
               <div class="calc-st4-convers" data-model="hi" data-color="red">
-                <span class="calc-st4-price"><span class="main-price">3 499</span><span class="rouble-calc"></span></span>
+                <span class="calc-st4-price"><span class="main-price">4 399</span><span class="rouble-calc"></span></span>
                 <a href="" class="calc-st5-btn">Далее</a>
               </div>
               <div class="calc-st4-color">
@@ -959,7 +959,7 @@
               <span class="calc-st5-plus">+</span>
               <div class="calc-st5-tovar" data-model="hi" data-color="red">
                 <span class="calc-st5-price">
-                  <span class="main-price">3 499</span><span class="calc-st5-rouble"></span>
+                  <span class="main-price">4 399</span><span class="calc-st5-rouble"></span>
                 </span>
               </div>
               <form action="ajax/mail.php" method="post" class="calc-st5-form">

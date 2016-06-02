@@ -18,8 +18,8 @@ $(document).ready(function() {
 var data_model;
 var cach_step=1;
 var is_animating = 0;
-var price = '2 499';
-var alt_price = '1 999';
+var price = '4 399';
+var alt_price = '3 999';
 var cur_sex = 'female';
 var cur_model = 'short';
 var cur_color = 'red';
@@ -336,15 +336,15 @@ $('.double-form-sex').not('.double-form-active').find('.double-form-img').attr('
 
 function change_prices(){
   if(cur_model == 'hi'){
-    price = '3 790';
+    price = '4 799';
   }else{
-    price = '3 390';
+    price = '4 399';
   }
   if($('.double-form-sex').not('.double-form-active').find('.selection-w[data-name="model"]').children('.selection-current').text() == 'Низ.'){
   
-    alt_price = '2 890';
+    alt_price = '3 899';
 }else{
-    alt_price = '3 290';
+    alt_price = '4 299';
 }
  
   $('.main-price').html(price);
